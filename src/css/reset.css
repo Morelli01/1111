@@ -33,3 +33,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: Film p3;
+  src: url(../fonts/FilmP3Bold.woff), url(../fonts/FilmP3Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}

@@ -40,3 +40,25 @@ img {
   font-weight: normal;
   font-style: normal;
 }
+
+.mimino{
+  font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #F3C653;
+}
+
+.body {
+  font-family: "Montserrat",serif;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  list-style: none;
+}

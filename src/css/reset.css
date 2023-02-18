@@ -1,4 +1,11 @@
 /* Reset styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -34,6 +41,30 @@ img {
   height: auto;
 }
 
+@media screen and (min-width: 414px){
+  .container {
+    min-width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    min-width: 1024px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @font-face {
   font-family: Film p3;
   src: url(../fonts/FilmP3Bold.woff), url(../fonts/FilmP3Bold.ttf);
@@ -51,7 +82,7 @@ img {
 }
 
 section {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat",sans-serif;
 }
 
 .list {

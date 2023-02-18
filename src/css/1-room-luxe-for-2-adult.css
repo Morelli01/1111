@@ -8,7 +8,7 @@
 }
 @media (min-width: 414px) {
     .section-luxe {
-        width: 414px;
+        background-color: #FFFDEE;
     }
         .container-luxe {
             position: relative;
@@ -71,7 +71,7 @@
             margin-top: 72px;
         }
     
-        .bath-img {
+        .bedroom-img {
             margin-right: 0;
             margin-left: auto;
             margin-top: 32px;
@@ -79,9 +79,11 @@
         }
     
         .img-cup {
-            margin-left: 75px;
+            margin-left: 15px;
         }
-    
+        .bath-tel {
+            margin-left: -15px;
+        }
         .luxe-svg {
             position: absolute;
             left: 16px;
@@ -91,7 +93,12 @@
         .svg-btt {
             background-color: #FFFDEE;
             border: 1px solid #FFFDEE;
+            width: 30px;
+            height: 17px;
         }
+        .svg-btt:not(:last-child) {
+            margin-right: 32px;
+            }
 }
 .container-luxe {
     position: relative;
@@ -153,23 +160,34 @@
     align-items: center;
     margin-top: 72px;
 }
-.bath-img {
+.slaider-lux {
+    display: flex;
+}
+.bedroom-img {
     margin-right: 0;
     margin-left: auto;
     margin-top: 32px;
     margin-bottom: 32px;
 }
 .img-cup {
-    margin-left: 75px;
+    margin-left: 15px;
     margin-right: auto;
     
+}
+.bath-tel {
+margin-left: -15px;
 }
 .luxe-svg {
     position: absolute;
     left: 16px;
-    bottom: 120px;
+    bottom: 145px;
 }
 .svg-btt {
     background-color: #FFFDEE;
     border: 1px solid #FFFDEE;
+    width: 32px;
+    height: 32px;
+}
+.svg-btt:not(:last-child) {
+    margin-right: 32px;
 }

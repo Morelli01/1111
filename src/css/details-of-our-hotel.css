@@ -4,6 +4,7 @@
         url(../img/details-of-our-hotel/det-hotel-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 40px;
 }
 
 .mimino {
@@ -14,20 +15,24 @@ margin-bottom: 12px;
 }
 
 .det-hotel-title {
-    text-align: center;
+    /* text-align: center; */
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    margin-left: 201px;
+        margin-bottom: 20px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .det-hotel-images{
     display: flex;
     gap: 20px;
+    margin-bottom: 16px;
 }
 .det-hotel-image-arrow{
     display: flex;
         flex-direction: column;
+        margin-left: -15px;
 }
 .det-hotel-text {
     width:  243px;
@@ -39,9 +44,11 @@ margin-bottom: 12px;
     letter-spacing: 0.02em;
     color: #BABABA;
 }
-.luxe-svg{
+.svg-icons{
   display: flex;
   gap:   32px;
+margin-left: 276px;
+    margin-bottom: 32px;
 }
 .det-hotel-button{
         padding: 0;
@@ -54,9 +61,14 @@ margin-bottom: 12px;
 }
 .btn-price{
    display: flex;
-   flex-direction: column;
+flex-wrap: wrap;
+gap: 16px;
+justify-content: center;
 }
+
 .det-hotel-btn{
+        width: 236px;
+            height: 48px;
     font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
@@ -71,12 +83,15 @@ margin-bottom: 12px;
             border-radius: 25px;
             }
 .det-hotel-btn-price{
+        width: 236px;
+            height: 48px;
 font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
     background-color: rgba(0, 0, 0, 0.4);
     color: #F3C653;
+        text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 37px;

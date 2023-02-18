@@ -1,0 +1,183 @@
+.container {
+    padding: 16px 15px;
+    min-width: 414px;
+    margin: 0 auto;
+}
+
+.amenities-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #FFFDEE;
+}
+ 
+@media screen and (min-width: 414px) {
+.amenities-section {
+    width: 414px;
+}
+}
+
+.amenities .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.amenities-ul{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.amenities-list {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+/* .amenitial-list.title-text:last-child {
+    margin-bottom: 16px;
+} */
+
+.subtitle {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #000000;
+}
+
+.title{
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.title-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+}
+#margin {
+    margin-bottom: 16px;
+}
+
+.reservation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.booking-button {
+    width: 384px;
+    height: 64px;
+    padding: 20px 43px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.hotel-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.icon {
+    padding-left: 12px;
+    fill: #C79002;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    background: #FFFDEE;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.modal {
+    top: 50%;
+    bottom: 50%;
+    padding: 16px;
+    position: absolute;
+    width: 414px;
+    height: 780px;
+    background: #FFFDEE;
+    border-radius: 2px;
+    transform: translate(-50%, -50%) scale(1);
+    padding-bottom: 60px;
+}
+
+.modal-close {
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+.modal-icon  {
+    fill: black;
+}
+
+.modal-title {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.textarea {
+    width: 384px;
+    height: 54px;
+    left: 15px;
+    top: 128px;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+}
+
+.submit {
+    position: absolute;
+    width: 384px;
+    height: 64px;
+    left: 15px;
+    top: 656px;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 2px;
+}

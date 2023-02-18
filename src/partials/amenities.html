@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="/src/css/amenities.css">
+<link rel="stylesheet" href="/src/css/reset.css">
+
+<section class="amenities-section container">
+    <div class="amenities">
+    <ul class="amenities-ul">
+        <li class="amenities-list">
+            <h2 class="title">ЗРУЧНОСТІ У НОМЕРІ</h2>
+            <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </li>
+
+        <li class="amenities-list">
+            <h3 class="subtitle">ЗАГАЛЬНІ</h3>
+            <p class="title-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </li>
+
+        <li class="amenities-list">
+            <h3 class="subtitle">ВАННА КІМНАТА</h3>
+            <p class="title-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </li>
+
+        <li class="amenities-list">
+            <h3 class="subtitle">СПАЛЬНЯ</h3>
+            <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."</p>
+        </li>
+
+        <li class="amenities-list">
+            <h3 class="subtitle">КУХНЯ</h3>
+                <p class="title-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+        </li>
+        
+        <li class="amenities-list">
+            <h3 class="subtitle">МЕДІА</h3>
+            <p class="title-text" id="margin">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            mollit.</p>
+        </li>
+    </ul>
+    </div>
+    
+    <div class="reservation">
+        <button data-modal-open type="button" class="booking-button">ОФОРМИТИ БРОНЮВАННЯ</button>
+                <a href="./hotel.html" class="hotel-link">Повернутися до перегляду номерів
+                    <svg class="icon" width="30" height="17">
+                        <use href="../img/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                </a>
+        <!-- MODAL -->
+        <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" data-modal-close>
+                <svg class="modal-icon" width="18" height="18">
+                    <use href="../img/sprite.svg#icon-close"></use>
+                </svg>
+                </button>
+            <p class="modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
+            <form class="modal-form">
+                <input type="text" name="user-name" id="name"></input>
+                <label for="name">На кого забронювати номер?</label>
+                <textarea class="textarea" name="rows" id="name" placeholder="Ваше ім’я"></textarea>
+
+                <input type="text" name="tel" id="tel"></input>
+                <label for="tel">Номер телефону</label>
+                <textarea class="textarea" name="rows" id="name" placeholder="+38 (___) ___-__-__"></textarea>
+
+                <input type="number" name="number" id="number">
+                <label for="number">Категорія номеру</label>
+                <textarea class="textarea" name="number" id="number" placeholder="Двомісний люкс"></textarea>
+
+                <input type="day" name="day" id="day">
+                <label for="day">Cьогодні</label>
+                <textarea class="textarea" name="number" id="number" placeholder="Дата заїзду"></textarea>
+
+                <input type="day" name="day" id="day">
+                <label for="day">Сьогодні</label>
+                <textarea class="textarea" name="day" id="day" placeholder="Дата виїзду"></textarea>
+
+                <button type="submmit">ОФОРМИТИ БРОНЮВАННЯ</button>
+            </form>
+</div>
+    </div>
+         </div>
+</section>
+<script src="../modal.js"></script>
+

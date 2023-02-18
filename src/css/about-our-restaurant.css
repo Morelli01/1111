@@ -1,6 +1,6 @@
 .conteiner {
-    padding: 16px 15px ;
-  min-width: 414px;
+  padding: 16px 16px 72px 15px;
+  max-width: 414px;
   margin: 0 auto;
 }
 .rest {
@@ -18,13 +18,11 @@
 .rest-two {
   margin-bottom: 32px;
   display: flex;
-  
   align-items: center;
   gap: 20px;
 }
 .rest-pretitle {
   font-family: 'Times New Roman';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
@@ -63,17 +61,74 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.02em;
+  
 }
 .rest-img {
   margin-left: 100px;
   margin-bottom: 32px;
 }
 .rest-imge {
- 
-  margin-left: 60px;
-  margin-bottom: 72px;
+  
 }
 .rest-foto {
   display: flex;
-  margin-left: 25px;
+  gap: 25px;
+  margin-left: 84px;
+}
+.conteiner-foto{
+ 
+  
+}
+
+@media screen and (min-width: 1024px){
+    .conteiner {
+    max-width: 917px;
+    padding-left: 47px;
+    padding-top: 0px;
+    padding-bottom: 96px;
+    
+  }
+.rest{
+    
+}
+.rest-page {
+   
+}
+.rest-text{
+    max-width: 430px;
+}
+.rest-one {
+  margin-bottom: 0px;
+  
+}
+.rest-two {
+  
+
+}
+.rest-imge{
+  width: 194px;
+  height: 194px;
+  margin-top: -60px;
+  
+
+}
+.rest-foto{
+  justify-content: flex-end;
+  margin-right: 60px;
+  
+}
+.rest-img{
+  
+    margin-left: 26px;
+    margin-bottom: 0;
+}
+.rest-text-next{
+    max-width: 312px;
+}
+}
+
+@media screen and (min-width: 1280px){
+    .conteiner {
+    max-width: 1110px;
+  }
 }

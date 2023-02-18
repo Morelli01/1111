@@ -62,27 +62,34 @@
                 </button>
             <p class="modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
             <form class="modal-form">
-                <input type="text" name="user-name" id="name"></input>
-                <label for="name">На кого забронювати номер?</label>
-                <textarea class="textarea" name="rows" id="name" placeholder="Ваше ім’я"></textarea>
+                <input type="text" class="modal-input" name="user-name" id="name" placeholder="Ваше ім’я"></input>
+                <label  class="modal-form-label" for="name">На кого забронювати номер?</label>
 
-                <input type="text" name="tel" id="tel"></input>
-                <label for="tel">Номер телефону</label>
-                <textarea class="textarea" name="rows" id="name" placeholder="+38 (___) ___-__-__"></textarea>
+                <input type="text" class="modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__"></input>
+                <label class="modal-form-label" for="tel">Номер телефону</label>
+                
 
-                <input type="number" name="number" id="number">
-                <label for="number">Категорія номеру</label>
-                <textarea class="textarea" name="number" id="number" placeholder="Двомісний люкс"></textarea>
+                <input type="number" class="modal-input" class="modal-input" name="number" id="number" placeholder="Двомісний люкс">
+                <svg class="modal-svg" width="24" height="24">
+                    <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                </svg></div>
+                <label class="modal-form-label" for="number">Категорія номеру</label>
+                
 
-                <input type="day" name="day" id="day">
-                <label for="day">Cьогодні</label>
-                <textarea class="textarea" name="number" id="number" placeholder="Дата заїзду"></textarea>
+                <input type="day" class="modal-input" name="day" id="day" placeholder="Сьогодні">
+                <svg class="modal-svg" width="24" height="24">
+                    <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                </svg>
+                <label class="modal-form-label" for="day">Дата заїзду</label>
+                
 
-                <input type="day" name="day" id="day">
-                <label for="day">Сьогодні</label>
-                <textarea class="textarea" name="day" id="day" placeholder="Дата виїзду"></textarea>
+                <input type="day" class="modal-input" name="day" id="day" placeholder="Сьогодні">
+                <svg class="modal-svg" width="24" height="24">
+                    <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                </svg>
+                <label class="modal-form-label" for="day">Дата виїзду</label>
 
-                <button type="submmit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                <button type="submit" class="submit-button">ОФОРМИТИ БРОНЮВАННЯ</button>
             </form>
 </div>
     </div>

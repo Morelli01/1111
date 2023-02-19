@@ -236,7 +236,7 @@
     
 /*---------desktop---------*/  
 @media screen and (min-width: 1280px){
-    .container{
+    .menu-restaurant .container{
         width: 1280px;
         padding-left: 85px;
         padding-right: 85px;
@@ -251,9 +251,11 @@
         margin-bottom: 12px;
     }
     .menu-restaurant-wrapper{
+        gap: 140px;
     }
 
     .dish-name{
+        width: 316px;
         font-size: 16px;
         line-height: 1.25;
     }

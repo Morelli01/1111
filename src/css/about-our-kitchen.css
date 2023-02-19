@@ -85,7 +85,10 @@
   display: flex;
   gap: 25px;
   margin-left: 84px;
+
   object-fit: cover;
+=======
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -148,6 +151,11 @@
     
     margin-left: 0;
     margin-top: -25px;
+    margin-top: -25px;
+  }
+  .conteiner-foto {
+    justify-content: flex-end;
+    margin-left: 0;
   }
 
   .rest-text-next {
@@ -167,9 +175,11 @@
   .conteiner {
     max-width: 1110px;
   }
+
   .conteiner-foto{
     margin-top: -35px;
   }
+
   .rest-img {
     width: 460px;
     height: 574px;

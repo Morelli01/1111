@@ -7,34 +7,19 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url("./header.css");
-@import url("../css/Homepage/hero.css");
-@import url("../css/Homepage/about-our-restaurant.css");
-@import url("../css/Homepage/details-of-our-restaurant.css");
-@import url("../css/Homepage/about-our-hotel.css");
-@import url("../css/Homepage/details-of-our-hotel.css");
-@import url("../css/Homepage/contacts.css");
-@import url("../css/restaurant-page/hero.css");
-@import url("../css/restaurant-page/about-our-kitchen.css");
-@import url("../css/restaurant-page/menu.css");
-@import url("../css/hotel-page/hero.css");
-@import url("../css/hotel-page/1-room-luxe-for-2-adult.css");
-@import url("../css/hotel-page/1-room-for-3-adult.css");
-@import url("../css/hotel-page/1-room-for-2-adult.css");
-@import url("../css/room-page/hero.css");
-@import url("../css/room-page/amenities.css");
+@import url("./hero-homepage.css");
+@import url("./about-our-restaurant.css");
+@import url("./details-of-our-restaurant.css");
+@import url("./about-our-hotel.css");
+@import url("./details-of-our-hotel.css");
+@import url("./contacts.css");
+@import url("./hero-restaurant.css");
+@import url("./about-our-kitchen.css");
+@import url("./menu.css");
+@import url("./hero-hotel.css");
+@import url("./1-room-luxe-for-2-adult.css");
+@import url("./1-room-for-3-adult.css");
+@import url("./1-room-for-2-adult.css");
+@import url("./hero-room.css");
+@import url("./amenities.css");
 @import url("./footer.css");
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}

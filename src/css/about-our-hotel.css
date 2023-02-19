@@ -1,6 +1,7 @@
 /* HOTEL*/
 
 .hotel-section{
+  position: relative;
   background: #FFFDEE;
 }
 
@@ -11,31 +12,18 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
-  .container{
-    padding-right: 15px;
-    padding-left: 15px;
-    min-width: 1024px;
-    margin: 0 auto;
-  }
-}
-
 .hotel-bedroom{
   display: block;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
-  .hotel-bedroom{
-    display: block;
-    margin-bottom: 32px;
-  }
-}
+
 
 .hotel-discription{
   text-align: right;
   margin-bottom: 28px;
+  margin-right: 0;
 }
 
 .hotel-article{
@@ -110,8 +98,10 @@
   margin-left: 70px;
 }
 
-.hotel-bed{
-  display: none;
+.hotel-towel{
+  position: absolute;
+  left: 0;
+  top: 795px;
 }
 
 .luxe-svg{
@@ -128,4 +118,31 @@
 
 .icon-luxe{
   fill: #000000;
+}
+
+
+/*tablet*/
+
+@media (min-width: 1024px){
+
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .hotel-bedroom{
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+
+
+
+  .hotel-towel{
+    display: none;
+  }
 }

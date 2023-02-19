@@ -7,14 +7,22 @@
     <title>Vanilla App Template</title>
     
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/1111/assets/main-fac82e35.js"></script>
-    <link rel="stylesheet" href="/1111/assets/homepage-dacf8834.css">
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/1111/assets/main-03f5ebd9.js"></script>
+    <link rel="stylesheet" href="/1111/assets/main-5e2a0153.css">
+    <link rel="stylesheet" href="/1111/assets/homepage-0a918886.css">
   </head>
   <body>
     <section>
@@ -24,74 +32,375 @@
     </section>
 
     <!-- Loads the specified .html file -->
-        
+    
 
-        
- <!-- About our restaurant -->
-<link rel="stylesheet" href="/src/css/about-our-restaurant.css">
-<link rel="stylesheet" href="/src/css/reset.css">
-    <section class="rest">
-      <div class="conteiner">
-        <div class="rest-page">
-          <div class="rest-one">
-            <p class="rest-pretitle">Amet minim mollit non</p>
-            <h3 class="rest-title">MIMIHO</h3>
-            <p class="rest-text">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-          </div>
-          <img
-            src="../img/rest/interior-mob.jpg"
-            alt="rest"
-            width="244"
-            height="322"
-            class="rest-img"
-          />
-        </div>
-        <div class="rest-two">
-          <img
-            src="../img/rest/oruri-jacome-mob.jpg"
-            alt="rest"
-            width="200"
-            height="278"
-            class="rest-imga"
-          />
-          <p class="rest-text-next">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
-        </div>
-        <ul class="rest-foto">
-          <li class="rest-foto1">
+    <!-- About our restaurant -->
+<section class="rest">
+  <div class="conteiner">
+    <div class="rest-page">
+      <div class="rest-one">
+        <p class="rest-pretitle">Amet minim mollit non</p>
+        <a href="#" class="rest-title">MIMIHO</a>
+        <p class="rest-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="
+          ../img/rest/interior.jpg 1x, 
+          ../img/rest/interior@2x.jpg 2x"
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ../img/rest/interior-tab.jpg    1x,
+            ../img/rest/interior-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/rest/interior-mob.jpg    1x,
+            ../img/rest/interior-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="../img/rest/interior.jpg"
+          alt="rest"
+          width="460"
+          height="574"
+          class="rest-img"
+        />
+      </picture>
+    </div>
+    <div class="rest-two">
+      <picture>
+        <source
+          srcset="
+            ../img/rest/oruri-jacome.jpg    1x,
+            ../img/rest/oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ../img/rest/oruri-jacome-tab.jpg    1x,
+            ../img/rest/oruri-jacome-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <sourceo
+          srcset="
+            ../img/rest/oruri-jacome-mob.jpg    1x,
+            ../img/rest/oruri-jacome-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="../img/rest/oruri-jacome.jpg"
+          alt="rest"
+          width="460"
+          height="574"
+          class="rest-imga"
+        />
+      </picture>
+      <p class="rest-text-next">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="conteiner-foto">
+      <img
+        src="../img/rest/helena.jpg"
+        alt="rest"
+        srcset="../img/rest/helena.jpg 1x, ../img/rest/helena@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
+      />
+
+      <img
+        src="../img/rest/mat.jpg"
+        alt="rest"
+        srcset="../img/rest/mat.jpg 1x, ../img/rest/mat@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
+      />
+    </div>
+  </div>
+</section>
+
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+  integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/details-of-our-restaurant.css" />
+
+<section class="details-rest">
+  <div class="container-datail-rest">
+    <a class="logo-details-rest link" href="../homepage.html" lang="uk"
+      >MIMIHO</a
+    >
+    <h2 class="title-details-rest" lang="uk">Ресторан</h2>
+    <p class="details-rest-text">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit.
+    </p>
+
+    <div class="details-of-rest-wrap">
+      <div class="raletive-wrap">
+        <ul class="list details-of-rest-list">
+          <li class="details-of-rest-item">
+
             <img
-              src="../img/rest/helena.jpg"
-              alt="rest"
-              width="245"
-              height="245"
-              class="rest-imge"
+              srcset="../img/details-of-rest/meat.jpg    1x,
+                  ../img/details-of-rest/meat-2x.jpg 2x"
+              src="../img/details-of-rest/meat.jpg"
+              alt="meat"
+              width="270"
+              height="270"
             />
+           
           </li>
-          <li class="rest-foto">
-            <img
-              src="../img/rest/mat.jpg"
-              alt="rest"
-              width="245"
-              height="245"
-              class="rest-imge"
-            />
+          <li class="details-of-rest-item">
+            
+              <img srcset="../img/details-of-rest/dish.jpg    1x,
+                  ../img/details-of-rest/dish-2x.jpg 2x"
+                src="../img/details-of-rest/dish.jpg"
+                alt="dish on the board"
+                width="162"
+                height="270"
+              />
+            </picture>
+          </li>
+          <li class="details-of-rest-item">
+            
+              <img srcset="../img/details-of-rest/dish-2.jpg    1x,
+                  ../img/details-of-rest/dish-2-2x.jpg 2x"
+                src="../img/details-of-rest/dish-2.jpg"
+                alt="dish on the plate"
+                width="270"
+                height="270"
+              />
+           
           </li>
         </ul>
+        <div class="details-of-rest-svg">
+          <button type="button" class="svg-btn">
+            <svg class="icon-arrow" width="35" height="17">
+              <use href="../img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <button type="button" class="svg-btn">
+            <svg class="icon-arrow" width="30" height="17">
+              <use href="../img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
       </div>
-    </section>
-        
-        
-        
-        
 
+      <div class="details-wrap-btn">
+        <button class="rest-booking" type="button" lang="uk">
+          Забронювати столик
+        </button>
+        <a class="link rest-menu" href="./" lang="uk">Переглянути меню</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+<link rel="stylesheet" href="../css/about-our-hotel.css">
+<link rel="stylesheet" href="../css/reset.css">
+
+  <section class="hotel-section">
+    <div class="container">
+      <div class="hotel-bedroom">
+        <div class="hotel-discription">
+          <span class="hotel-article">Amet minim mollit non</span>
+          <a href="../index.html"  class="hotel-title">MIMIHO</a>
+          <p class="hotel-paragraf">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p></div>
+        <div class="hotel-pictures">
+          <picture>
+            <source
+              media="(min-width:1280px)"
+              srcset= "
+              ../img/hotel/desktop/hotel-desktop-1.jpg 1x,
+              ../img/hotel/desktop/hotel-desktop-1@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width:1024px)"
+              srcset="
+              ../img/hotel/tabet/hotel-tabet-1.jpg    1x,
+              ../img/hotel/tabet/hotel-tabet-1@2x.jpg 2x
+              "                                          
+            />
+            <img
+              srcset="
+              ../img/hotel/mobile/hotel-mobile-1.jpg    1x,
+              ../img/hotel/mobile/hotel-mobile-1@2x.jpg 2x
+              " 
+              src="../img/hotel/mobile/hotel-mobile-1.jpg"
+              alt="A beautiful room with a white bed"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="hotel-living">
+        <p class="hotel-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <div class="hotel-holl">
+          <picture>
+            <source
+              media="(min-width:1280px)"
+              srcset= "
+              ../img/hotel/desktop/hotel-desktop-2.jpg 1x,
+              ../img/hotel/desktop/hotel-desktop-2@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width:1024px)"
+              srcset="
+              ../img/hotel/tabet/hotel-tabet-2.jpg    1x,
+              ../img/hotel/tabet/hotel-tabet-2@2x.jpg 2x
+              "                                          
+            />
+            <img
+              srcset="
+              ../img/hotel/mobile/hotel-mobile-2.jpg   1x,
+              ../img/hotel/mobile/hotel-mobile-2@2x.jpg 2x
+              " 
+              src="../img/hotel/mobile/hotel-mobile-2.jpg"
+              alt="hotel hall"
+              loading="lazy"
+            />
+          </picture>
+        </div>  
+      </div>
+      <div class="hotel-slide">
+        <img
+        srcset="
+          ../img/hotel/mobile/white-bed-mobile.jpg   1x,
+          ../img/hotel/mobile/white-bed-mobile.jpg 2x
+          " 
+          src="../img/hotel/mobile/white-bed-mobile.jpg"
+          alt="white rolled towel"
+          loading="lazy"
+          class="hotel-towel"
+        />
+        <picture class="hotel-registration">
+          <source
+            media="(min-width:1280px)"
+            srcset= "
+            ../img/hotel/desktop/hotel-registration-desktop.jpg 1x,
+            ../img/hotel/desktop/hotel-registration-desktop@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width:1024px)"
+            srcset="
+            ../img/hotel/tabet/hotel-registration-tabet.jpg 1x,
+            ../img/hotel/tabet/hotel-registration-tabet@2x.jpg 2x"                                          
+          />
+          <img  
+          srcset="
+          ../img/hotel/mobile/hotel-registration-mobile.jpg 1x, 
+          ../img/hotel/mobile/hotel-registration-mobile@2x.jpg 2x"
+          
+          src="../img/hotel/mobile/hotel-registration-mobile.jpg" 
+          alt="registration of a woman in a hotel"
+          loading="lazy"/>
+        </picture>
+        <picture class="hotel-bed">
+          <source
+            media="(min-width:1200px)"
+            srcset= "
+            ../img/hotel/desktop/white-bed-desktop.jpg 1x,
+            ../img/hotel/desktop/white-bed-desktop@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width:1024px)"
+            srcset="
+            ../img/hotel/tabet/white-bed-tabet.jpg    1x,
+            ../img/hotel/tabet/white-bed-tabet@2x.jpg 2x
+            "                                          
+          />
+          <img  src="../img/hotel/mobile/frame.png" 
+                alt="registration of a woman in a hotel">
+        </picture>
+        
+      </div>
+      <div class="luxe-svg">
+        <button type="button" class="svg-btt">
+          <svg class="icon-luxe" width="30" height="17">
+              <use href="../img/sprite.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button type="button" class="svg-btt">
+          <svg class="icon-luxe" width="30" height="17">
+            <use href="../img/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+<section class="det-hotel">
+    <div class="container">
+        <a class="mimino" href="">mimiho</a>
+        <h3 class="det-hotel-title">Готель</h3>
+        <p class="det-hotel-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+            officia consequat duis enim velit mollit.</p>
+            <div class="det-hotel-image-arrow">
+            <div class="det-hotel-images">
+            <img src="../img/details-of-our-hotel/det-hotel-lunch.png" alt="">
+        <img src="../img/details-of-our-hotel/det-of-our-hotel.jpg" 
+        alt="" width="274" height="270">
+        </div>
+        
+        <div class="svg-icons">
+        <button type="button" class="det-hotel-button">
+            <svg class="det-hotel-icon" width="32" height="32">
+                <use href="../img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+        </button>
+        <button type="button" class="det-hotel-button">
+            <svg class="det-hotel-icon" width="32" height="32" >
+                <use href="../img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+        </button>
+        </div>
+        </div>
+        <div class="btn-price">
+          <button type="button" class="det-hotel-btn">Забронювати номер</button>
+            <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
+        </div>
+
+
+    </div>
+</section>
+
+
+<a href=""></a>
     
+
     
   </body>
 </html>

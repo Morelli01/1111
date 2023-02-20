@@ -3,6 +3,7 @@
 .hotel-section{
   position: relative;
   background: #FFFDEE;
+  padding-bottom: 27px;
  
 }
 
@@ -133,6 +134,7 @@
   .hotel-section{
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 39px;
   }
   
 
@@ -206,6 +208,11 @@
 /*Desktop*/
 
 @media (min-width: 1280px){
+
+  .hotel-section{
+    padding-bottom: 29px;
+  }
+
   .hotel-container{
     min-width: 1280px;
     padding-right: 85px;

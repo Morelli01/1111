@@ -5,6 +5,7 @@
 }
 
 .section-luxe {
+    height: auto;
     background-color: #FFFDEE;
     margin-left: auto;
     margin-right: auto;
@@ -131,6 +132,7 @@
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-luxe {
         width: 414px;
+        height: auto;
     }
 
     .container-luxe {
@@ -248,7 +250,7 @@
 @media (min-width: 1024px) and (max-width:1279px) {
     .section-luxe {
         width: 1024px;
-        height: 838px;
+        height: auto;
         padding-top: 62px;
         padding-left: 47px;
         padding-right: 47px;
@@ -354,14 +356,15 @@
         height: 194px;
     }
     .slaider-lux {
+        position: relative;
         margin-top: 48px;
         display: flex;
     }
 
     .luxe-svg {
         position: absolute;
-        left: 320px;
-        bottom: 80px;
+        right: 1px;
+        bottom: -70px;
     }
     .svg-btt {
         background-color: #FFFDEE;
@@ -376,6 +379,7 @@
 }
 @media (min-width: 1280px) {
 .section-luxe {
+        height: 965px;
         padding-top: 72px;
         padding-left: 85px;
         padding-right: 85px;
@@ -489,14 +493,15 @@
     }
 
     .slaider-lux {
+        position: relative;
         margin-top: 48px;
         display: flex;
     }
 
     .luxe-svg {
         position: absolute;
-        left: 445px;
-        bottom: 40px;
+        right: -10px;
+        bottom: -75px;
     }
 
     .svg-btt {

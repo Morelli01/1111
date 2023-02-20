@@ -256,8 +256,6 @@
 
     .container-luxe {
         position: relative;
-        width: 1024px;
-        height: 838px;
         padding: 0;
     }
 
@@ -466,7 +464,6 @@
         align-items: center;
         margin-top: 72px;
         margin-left: auto;
-        margin-right: ;
     }
 
     .bedroom-img {

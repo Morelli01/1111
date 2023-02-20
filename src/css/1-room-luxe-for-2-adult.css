@@ -119,7 +119,7 @@
     .luxe-svg {
         position: absolute;
         left: 0;
-        bottom: -55px;
+        bottom: -79px;
     }
 
     .svg-btt {
@@ -138,6 +138,7 @@
     .section-luxe {
         width: 414px;
         height: 1050px;
+        background-color: #FFFDEE;
     }
 
     .container-luxe {
@@ -242,7 +243,7 @@
     .luxe-svg {
         position: absolute;
         left: 0;
-        bottom: -55px;
+        bottom: -79px;
     }
 
     .svg-btt {
@@ -264,6 +265,7 @@
         padding-top: 62px;
         padding-left: 47px;
         padding-right: 47px;
+        background-color: #FFFDEE;
     }
 
     .container-luxe {
@@ -397,11 +399,12 @@
         padding-top: 72px;
         padding-left: 85px;
         padding-right: 85px;
+        background-color: #FFFDEE;
     }
 
     .container-luxe {
         position: relative;
-        width: 100%;
+        width: 1280px;
         height: 100%;
         padding: 0;
     }

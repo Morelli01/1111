@@ -74,7 +74,7 @@
         text-align: end;
     }
 
-    .luxe-btt {
+    .item-btt-3-adult {
         width: 236px;
         height: 48px;
         border-radius: 25px;
@@ -85,13 +85,13 @@
         border: 2px solid #FFFFFF;
     }
 
-    .luxe-btt:focus,
-    .luxe-btt:hover {
+    .item-btt-3-adult:focus,
+    .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
 
-    .btt {
+    .btt-3-adult {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -128,20 +128,20 @@
         height: 194px;
     }
 
-    .luxe-svg {
+    .adult-3-svg {
         position: absolute;
         left: 0;
         bottom: -79px;
     }
 
-    .svg-btt {
+    .adult-3-svg-btt {
         background-color: #F0ECD6;
         border: 1px solid #F0ECD6;
         width: 32px;
         height: 32px;
     }
 
-    .svg-btt:not(:last-child) {
+    .adult-3-svg-btt:not(:last-child) {
         margin-right: 32px;
     }
 }
@@ -211,7 +211,7 @@
         text-align: end;
     }
 
-    .luxe-btt {
+    .item-btt-3-adult {
         width: 236px;
         height: 48px;
         border-radius: 25px;
@@ -222,13 +222,13 @@
         border: 2px solid #FFFFFF;
     }
 
-    .luxe-btt:focus,
-    .luxe-btt:hover {
+    .item-btt-3-adult:focus,
+    .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
 
-    .btt {
+    .btt-3-adult {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -259,20 +259,20 @@
         margin-left: -140px;
     }
 
-    .luxe-svg {
+    .adult-3-svg {
         position: absolute;
         left: 0;
         bottom: -79px;
     }
 
-    .svg-btt {
+    .adult-3-svg-btt {
         background-color: #F0ECD6;
         border: 1px solid #F0ECD6;
         width: 32px;
         height: 32px;
     }
 
-    .svg-btt:not(:last-child) {
+    .adult-3-svg-btt:not(:last-child) {
         margin-right: 32px;
     }
 }
@@ -342,7 +342,7 @@
         display: flex;
     }
 
-    .luxe-btt {
+    .item-btt-3-adult {
         width: 236px;
         height: 48px;
         border-radius: 25px;
@@ -356,17 +356,17 @@
         border: 2px solid #FFFFFF;
     }
 
-    .luxe-btt:not(:last-child) {
+    .item-btt-3-adult:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    .luxe-btt:focus,
-    .luxe-btt:hover {
+    .item-btt-3-adult:focus,
+    .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
 
-    .btt {
+    .btt-3-adult {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -398,20 +398,20 @@
         display: flex;
     }
 
-    .luxe-svg {
+    .adult-3-svg {
         position: absolute;
         right: 0;
         bottom: -70px;
     }
 
-    .svg-btt {
+    .adult-3-svg-btt {
         background-color: #F0ECD6;
         border: 1px solid #F0ECD6;
         width: 40px;
         height: 40px;
     }
 
-    .svg-btt:not(:last-child) {
+    .adult-3-svg-btt:not(:last-child) {
         margin-right: 32px;
     }
 }
@@ -483,7 +483,7 @@
         display: flex;
     }
 
-    .luxe-btt {
+    .item-btt-3-adultitem-btt-3-adult {
         width: 236px;
         height: 48px;
         border-radius: 25px;
@@ -497,17 +497,17 @@
         border: 2px solid #FFFFFF;
     }
 
-    .luxe-btt:not(:last-child) {
+    .item-btt-3-adult:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    .luxe-btt:focus,
-    .luxe-btt:hover {
+    .item-btt-3-adult:focus,
+    .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
 
-    .btt {
+    .btt-3-adult {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -546,14 +546,14 @@
         bottom: -120px;
     }
 
-    .svg-btt {
+    .adult-3-svg-btt {
         background-color: #F0ECD6;
         border: 1px solid #F0ECD6;
         width: 40px;
         height: 40px;
     }
 
-    .svg-btt:not(:last-child) {
+    .adult-3-svg-btt:not(:last-child) {
         margin-right: 32px;
     }
 }

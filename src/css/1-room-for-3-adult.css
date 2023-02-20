@@ -293,7 +293,7 @@
 
     .text-container-3 {
         margin-left: auto;
-        margin-right: 20px;
+        margin-right: 0;
         width: 439px;
         height: 80px;
     }
@@ -307,9 +307,8 @@
         color: rgb(122, 122, 122);
     }
     .mimino-container {
-        display: flex;
-        justify-content: end;
-        
+    display: flex;
+    justify-content: flex-end;
     }
 
     .headline-3-mimino {
@@ -325,11 +324,12 @@
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
         font-size: 30px;
-        line-height: 35px;
+        line-height: 34.5px;
+        letter-spacing: 0.05em;
         margin-top: 62px;
         margin-bottom: 16px;
         margin-left: auto;
-        margin-right: 110px;
+        margin-right: 65px;
         text-align: end;
     }
 
@@ -339,9 +339,7 @@
         font-size: 32px;
         line-height: 37px;
         margin-bottom: 4px;
-        margin-left: auto;
-        margin-right: 20px;
-        text-align: end;
+        text-align: right;
     }
 
     .flex-3-adult {
@@ -442,7 +440,7 @@
 
         .text-container-3 {
             margin-left: auto;
-            margin-right: 20px;
+            margin-right: 30px;
             width: 439px;
             height: 80px;
         }
@@ -472,15 +470,16 @@
         }
     
         .headlines-number-3 {
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 35px;
-            margin-top: 62px;
-            margin-bottom: 16px;
-            margin-left: auto;
-            margin-right: 110px;
-            text-align: end;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41.4px;
+        letter-spacing: 0.05em;
+        margin-top: 62px;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: 20px;
+        text-align: end;
         }
     
         .headline-3-adult {

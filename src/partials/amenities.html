@@ -65,7 +65,7 @@
         </div>
 
             <div class="booking">
-                <button class="booking-button" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
+                <button data-modal-open class="booking-button" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
                 <div class="booking-link">
                 <a href="./hotel.html" class="hotel-link">Повернутися до перегляду номерів
                     <svg class="booking-svg" width="30" height="17">
@@ -73,8 +73,59 @@
                     </svg>
                 </a>
             </div>
-    </div>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="amenities-modal">
+                <button class="amenities-modal-close" data-modal-close>
+                    <svg class="amenities-icon" width="24" height="24">
+                        <use href="../img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="amenities-modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                <form class="amenities-form">
+                    <label class="modal-form-label"></label>
+                    <input type="text" class="modal-input" name="name" id="name" placeholder="Ваше ім’я">
+                    <span class="modal-text">На кого забронювати номер?</span>
+
+                    <label class="modal-form-label"></label>
+                    <input type="text" class="modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__">
+                    <span class="modal-text">Номер телефону</span>
+
+                    <label class="modal-form-label"></label>
+                    <span class="modal-wrap">
+                    <input type="text" class="modal-input wrap" name="number" id="number" placeholder="Двомісний люкс">
+                    <svg class="modal-svg" width="24" height="24">
+                        <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                    </svg>
+                    </span>
+                    <span class="modal-text">Категорія номеру</span>
+
+                    
+                    <label class="modal-form-label"></label>
+                    <span class="modal-wrap">
+                        <input type="text" class="modal-input" name="day" id="dayr" placeholder="Сьогодні">
+                        <svg class="modal-svg" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                        </svg>
+                    </span>
+                    <span class="modal-text">Дата заїзду</span>
+                    
+                    
+                    <label class="modal-form-label"></label>
+                    <span class="modal-wrap">
+                        <input type="text" class="modal-input" name="day" id="day" placeholder="Сьогодні">
+                        <svg class="modal-svg" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                        </svg>
+                    </span>
+                    <span class="modal-text">Дата виїзду</span>
+
+                    <button type="submmit" class="button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                </form>
+            </div>
+        </div>
     </div>
 </section>
+<script src="../modal.js"></script>
        
 

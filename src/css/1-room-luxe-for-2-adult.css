@@ -391,7 +391,7 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (max-width:1280px) {
     .section-luxe {
         height: 956px;
         padding-top: 72px;

@@ -8,19 +8,10 @@
   margin-right: auto;
 }
 
-@media (min-width: 1024px){
-
-  .hotel-section{
-    max-width: 1024px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 .container{
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 414px;
   margin: 0 auto;
 }
 
@@ -145,6 +136,7 @@
     margin-left: 0;
     margin-right: 0;
   }
+  
 
   .container{
     padding-top: 120px;
@@ -217,6 +209,7 @@
 
 @media (min-width: 1280px){
   .container{
+    min-width: 1280px;
     padding-right: 85px;
     padding-left: 85px;
     margin: 0 auto;
@@ -244,6 +237,7 @@
 }
 
 .hotel-slide{
+  margin-top: 101px;
   gap: 40px;
 }
 

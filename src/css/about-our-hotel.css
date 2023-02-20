@@ -2,14 +2,25 @@
 
 .hotel-section{
   position: relative;
-  min-width: 414px;
   background: #FFFDEE;
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px){
+
+  .hotel-section{
+    max-width: 1024px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .container{
   padding-right: 15px;
   padding-left: 15px;
-  min-width: 414px;
+  max-width: 414px;
   margin: 0 auto;
 }
 
@@ -128,6 +139,12 @@
 /*tablet*/
 
 @media (min-width: 1024px){
+
+  .hotel-section{
+    max-width: 1024px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .container{
     padding-top: 120px;

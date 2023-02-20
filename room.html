@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
   <script type="module" crossorigin src="/1111/assets/main-03f5ebd9.js"></script>
-  <link rel="stylesheet" href="/1111/assets/main-f811f21c.css">
+  <link rel="stylesheet" href="/1111/assets/main-e99da5d8.css">
 </head>
 
 <body>
@@ -28,7 +28,138 @@
     <!-- Loads the specified .html file -->
     
                 
-                
+                <link rel="stylesheet" href="/src/css/amenities.css">
+<link rel="stylesheet" href="/src/css/reset.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+<section class="amenities-section">
+    <div class="container">
+        <div class="amenities">
+                <h2 class="amenities-title">ЗРУЧНОСТІ У НОМЕРІ</h2>
+                <p class="text-subtitle">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+                <ul class="amenities-list">
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">ЗАГАЛЬНІ</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">ВАННА КІМНАТА</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">СПАЛЬНЯ</h3>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                        </p>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">КУХНЯ</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">МЕДІА</h3>
+                    <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+                <div class="booking">
+                    <button data-modal-open type="button" class="booking-button" >ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <div class="booking-link">
+                    <a href="./hotel.html" class="hotel-link">Повернутися до перегляду номерів
+                        <svg class="booking-svg" width="30" height="17">
+                            <use href="../img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="amenities-modal">
+                    <button class="amenities-modal-close" data-modal-close>
+                        <svg class="amenities-icon" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <p class="amenities-modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                    <form class="amenities-form">
+                        <label class="modal-form-label"></label>
+                        <input type="text" class="modal-input" name="name" id="name" placeholder="Ваше ім’я">
+                        <span class="modal-text">На кого забронювати номер?</span>
+
+                        <label class="modal-form-label"></label>
+                        <input type="text" class="modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__">
+                        <span class="modal-text">Номер телефону</span>
+
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                        <input type="text" class="modal-input wrap" name="number" id="number" placeholder="Двомісний люкс">
+                        <svg class="modal-svg" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                        </svg>
+                        </span>
+                        <span class="modal-text">Категорія номеру</span>
+
+                        
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                            <input type="text" class="modal-input" name="day" id="dayr" placeholder="Сьогодні">
+                            <svg class="modal-svg" width="24" height="24">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-text">Дата заїзду</span>
+                        
+                        
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                            <input type="text" class="modal-input" name="day" id="day" placeholder="Сьогодні">
+                            <svg class="modal-svg" width="24" height="24">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-text">Дата виїзду</span>
+
+                        <button type="submit" class="button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+</section>
+<script src="./modal.js"></script> 
+       
+
+
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/footer.css">

@@ -1,0 +1,209 @@
+.container {
+    width: 414px;
+    padding: 32px 15px;
+    margin: 0 auto;
+}
+    @media screen and (min-width: 320px) and (max-width: 413px) {
+        .container {
+        max-width: 414px;
+
+    }
+}
+
+    @media screen and (min-width: 414px) and (max-width: 1023px) {
+        .container {
+        width: 414px;
+    }
+}
+
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        .container {
+        width: 1024px;
+        padding: 50px 47px 40px 47px;
+
+    }
+
+} 
+
+@media screen and (min-width: 1280px) {
+    .container {
+        padding: 48px 199px 48px 85px;
+        width: 1280px;
+
+    }   
+}
+
+.amenities-section {
+    background-color: #FFFDEE;
+
+}
+
+/* .amenities {} */
+
+.amenities-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .amenities-list {
+        display: flex;
+        column-gap:80px;
+    }
+} */
+
+.amenities-title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+
+    color: #000000;
+}
+
+.amenities-item {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+
+.amenities-subtitle {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+
+    color: #000000;
+}
+
+/* @media screen and (min-width:1024px) and (max-width:1279px) {
+    .amenities-subtitle {
+        position: relative;
+    }
+} */
+
+.text-subtitle {
+    margin-bottom: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+}
+
+@media screen and (min-width: 1024px) {
+    .text-subtitle {
+        width: 757px;
+    }    
+}
+
+@media screen and (min-width: 1024px)  and (max-width: 1279px){
+.amenities-box{
+    display: flex;
+    gap: 80px;
+}
+} 
+
+@media screen and (min-width: 1280px) {
+    .amenities-box{
+        display: flex;
+    gap: 159px;
+    }
+}
+
+.amenities-text {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    color: #7A7A7A;
+}
+
+@media screen and (min-width:1024px) {
+    .amenities-text {
+        width: 400px;
+    }
+    
+} 
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px)  {
+    .booking {
+        align-items: flex-end;
+    }
+}
+
+.booking-button {
+    width: 384px;
+    height: 64px;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:1024px)  {
+    .booking-button {
+    width: 434px;
+    font-size: 24px;
+    line-height: 1.20;
+    margin-bottom: 32px;
+    }
+}
+
+.amenities-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.booking-svg {
+    padding-left: 12px;
+    fill: #C79002;
+}
+
+/* .booking-link {
+
+} */
+
+.hotel-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+@media  screen and (min-width: 1024px)  {
+    .hotel-link {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
+

@@ -3,13 +3,12 @@
 .hotel-section{
   position: relative;
   background: #FFFDEE;
-  max-width: 414px;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 
-.container{
+.hotel-container{
+  max-width: 414px;
   padding-right: 15px;
   padding-left: 15px;
   max-width: 414px;
@@ -133,13 +132,12 @@
 @media (min-width: 1024px){
 
   .hotel-section{
-    max-width: 1024px;
     margin-left: 0;
     margin-right: 0;
   }
   
 
-  .container{
+  .hotel-container{
     padding-top: 120px;
     padding-right: 15px;
     padding-left: 15px;
@@ -209,7 +207,7 @@
 /*Desktop*/
 
 @media (min-width: 1280px){
-  .container{
+  .hotel-container{
     min-width: 1280px;
     padding-right: 85px;
     padding-left: 85px;

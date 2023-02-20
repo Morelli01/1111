@@ -2,15 +2,18 @@
 
 .hotel-section{
   position: relative;
-  min-width: 414px;
   background: #FFFDEE;
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .container{
   padding-right: 15px;
   padding-left: 15px;
   max-width: 414px;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .hotel-bedroom{
@@ -101,6 +104,7 @@
 
 .hotel-towel{
   margin-left: -15px;
+  
 }
 
 .hotel-bed{
@@ -127,6 +131,13 @@
 /*tablet*/
 
 @media (min-width: 1024px){
+
+  .hotel-section{
+    max-width: 1024px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
 
   .container{
     padding-top: 120px;
@@ -199,6 +210,7 @@
 
 @media (min-width: 1280px){
   .container{
+    min-width: 1280px;
     padding-right: 85px;
     padding-left: 85px;
     margin: 0 auto;
@@ -226,6 +238,7 @@
 }
 
 .hotel-slide{
+  margin-top: 101px;
   gap: 40px;
 }
 

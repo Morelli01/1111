@@ -136,7 +136,6 @@
 
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-luxe {
-        width: 414px;
         height: 1050px;
         background-color: #FFFDEE;
     }
@@ -146,7 +145,6 @@
         margin-right: auto;
         position: relative;
         width: 414px;
-        margin-right: 0;
         padding: 32px 15px;
     }
 

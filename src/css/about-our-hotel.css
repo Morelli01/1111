@@ -3,7 +3,7 @@
 .hotel-section{
   position: relative;
   background: #FFFDEE;
-  padding-bottom: 27px;
+  padding-bottom: 72px;
  
 }
 
@@ -91,10 +91,10 @@
 }
 
 .hotel-slide{
+  position: relative;
   display: flex;
   align-content: center;
   gap: 20px;
-  margin-bottom: 27px;
 }
 
 .hotel-registration{
@@ -111,7 +111,9 @@
 }
 
 .luxe-svg{
-  margin-bottom: 27px;
+  position: absolute;
+  top: 273px;
+  left: -30px;
   gap: 33px;
 }
 
@@ -134,7 +136,7 @@
   .hotel-section{
     margin-left: 0;
     margin-right: 0;
-    padding-bottom: 39px;
+    padding-bottom: 96px;
   }
   
 
@@ -185,6 +187,11 @@
     gap: 48px;
   }
 
+  .luxe-svg{
+    top: 233px;
+    left: 0;
+  } 
+
   .hotel-text{
     max-width: 312px;
     font-size: 16px;
@@ -232,18 +239,24 @@
   .hotel-living{
     margin-bottom: -180px;
   }
+
   .hotel-holl{
     margin-right: -40px;
   }
+  
+  .hotel-text{
+    margin-top: 60px;
+   max-width: 311px;
+  }
 
-.hotel-text{
-  margin-top: 60px;
-  max-width: 311px;
-}
+  .hotel-slide{
+    margin-top: 101px;
+    gap: 40px;
+  }
 
-.hotel-slide{
-  margin-top: 101px;
-  gap: 40px;
-}
+  .luxe-svg{
+    top: 302px;
+    left: 0;
+  } 
 
 }

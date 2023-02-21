@@ -147,7 +147,7 @@
     .section-3-adult {
         height: auto;
         background-color: #F0ECD6;
-        overflow: hidden;
+        overflow: visible;
     }
 
     .container-3-adult {
@@ -283,7 +283,6 @@
         padding-left: 47px;
         padding-right: 47px;
         background-color: #F0ECD6;
-         overflow: visible;
     }
 
     .container-3-adult {

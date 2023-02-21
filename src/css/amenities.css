@@ -1,3 +1,8 @@
+.amenities-section {
+    background-color: #FFFDEE;
+
+}
+
 .container-amenities {
     width: 414px;
     padding: 32px 15px;
@@ -31,11 +36,6 @@
         width: 1280px;
 
     }   
-}
-
-.amenities-section {
-    background-color: #FFFDEE;
-
 }
 
 /* .amenities {} */

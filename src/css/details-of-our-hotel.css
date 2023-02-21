@@ -2,7 +2,7 @@
 .det-hotel {
     padding-top: 24px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../img/details-of-our-hotel/bg-mob_414.jpg);
+        url(./img/details-of-our-hotel/bg-mob_414.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 40px;
@@ -15,14 +15,14 @@
 (min-resolution: 2dppx) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(../img/details-of-our-hotel/bg-desk_2560.jpg);
+            url(./img/details-of-our-hotel/bg-desk_2560.jpg);
     }
 }
 
 @media screen and (min-width:1023px) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(../img/details-of-our-hotel/bg-desk_1280.jpg);
+            url(./img/details-of-our-hotel/bg-desk_1280.jpg);
     }
 }
 
@@ -30,14 +30,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .det-hotel {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) url(../img/details-of-our-hotel/bg-tablet_2048.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) url(./img/details-of-our-hotel/bg-tablet_2048.jpg);
     }
 }
 
 @media screen and (min-width:415px) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-            url(../img/details-of-our-hotel/bg-tablet_1024.jpg);
+            url(./img/details-of-our-hotel/bg-tablet_1024.jpg);
     }
 }
 
@@ -46,21 +46,21 @@
 (min-resolution: 2dppx) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(../img/details-of-our-hotel/bg-mob_828.jpg);
+            url(./img/details-of-our-hotel/bg-mob_828.jpg);
     }
 }
 
 /* @media screen and (min-width:1024px) {
    .det-hotel{
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-     url(../img/details-of-our-hotel/bg-tablet_1024.jpg);
+     url(./img/details-of-our-hotel/bg-tablet_1024.jpg);
     padding-top: 48px;
     }
 }
 @media screen and (min-width:1280px) {
     .det-hotel{
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-         url(../img/details-of-our-hotel/bg-desk_1280.jpg);
+         url(./img/details-of-our-hotel/bg-desk_1280.jpg);
     }
 } */
 
@@ -276,7 +276,12 @@
     border-radius: 25px;
 }
 
-
+/* @media screen and (min-width:1024px) {
+    .det-hotel-btn {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+} */
 
 .det-hotel-btn-price {
     width: 236px;
@@ -368,8 +373,10 @@ z-index: 1;
     flex-direction: column;
     
 }
+
 .input-style::placeholder{
     font-family: 'Times New Roman';
+.form-field input ::placeholder{
     font-weight: 700;
         font-size: 24px;
         line-height: 1.16;
@@ -386,6 +393,7 @@ z-index: 1;
 }
 
 .input-style-first{
+.input-style{
     margin-bottom: 8px;
     height: 54px;
    width: 384px;

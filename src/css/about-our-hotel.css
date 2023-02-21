@@ -2,15 +2,17 @@
 
 .hotel-section{
   position: relative;
-  min-width: 414px;
   background: #FFFDEE;
+  padding-bottom: 72px;
 }
 
-.container{
+
+.hotel-container{
+  max-width: 414px;
   padding-right: 15px;
   padding-left: 15px;
-  min-width: 414px;
-  margin: 0 auto;
+  max-width: 414px;
+    margin: 0 auto;
 }
 
 .hotel-bedroom{
@@ -89,10 +91,10 @@
 }
 
 .hotel-slide{
+  position: relative;
   display: flex;
   align-content: center;
   gap: 20px;
-  margin-bottom: 27px;
 }
 
 .hotel-registration{
@@ -101,6 +103,7 @@
 
 .hotel-towel{
   margin-left: -15px;
+  
 }
 
 .hotel-bed{
@@ -108,7 +111,9 @@
 }
 
 .luxe-svg{
-  margin-bottom: 27px;
+  position: absolute;
+  top: 273px;
+  left: -30px;
   gap: 33px;
 }
 
@@ -128,7 +133,14 @@
 
 @media (min-width: 1024px){
 
-  .container{
+  .hotel-section{
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 96px;
+  }
+  
+
+  .hotel-container{
     padding-top: 120px;
     padding-right: 15px;
     padding-left: 15px;
@@ -175,6 +187,11 @@
     gap: 48px;
   }
 
+  .luxe-svg{
+    top: 233px;
+    left: 0;
+  } 
+
   .hotel-text{
     max-width: 312px;
     font-size: 16px;
@@ -198,7 +215,13 @@
 /*Desktop*/
 
 @media (min-width: 1280px){
-  .container{
+
+  .hotel-section{
+    padding-bottom: 122px;
+  }
+
+  .hotel-container{
+    min-width: 1280px;
     padding-right: 85px;
     padding-left: 85px;
     margin: 0 auto;
@@ -216,17 +239,24 @@
   .hotel-living{
     margin-bottom: -180px;
   }
+
   .hotel-holl{
     margin-right: -40px;
   }
+  
+  .hotel-text{
+    margin-top: 60px;
+   max-width: 311px;
+  }
 
-.hotel-text{
-  margin-top: 60px;
-  max-width: 311px;
-}
+  .hotel-slide{
+    margin-top: 101px;
+    gap: 40px;
+  }
 
-.hotel-slide{
-  gap: 40px;
-}
+  .luxe-svg{
+    top: 302px;
+    left: 0;
+  } 
 
 }

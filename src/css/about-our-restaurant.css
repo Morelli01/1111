@@ -1,25 +1,10 @@
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.conteiner-rest {
+.conteiner {
   padding: 16px 16px 72px 15px;
-  min-width: 414px;
+  max-width: 414px;
   margin: 0 auto;
 }
 .rest {
   background: #fffdee;
-  overflow: hidden;
-  position: relative;
 }
 .rest-page {
   display: flex;
@@ -100,37 +85,15 @@
   display: flex;
   gap: 25px;
   margin-left: 84px;
-}
-.svg-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: transparent;
-  border: none;
-  width: 32px;
-  height: 32px;
-}
-.rest-svg {
-  position: absolute;
-  display: flex;
-  gap: 32px;
-  right: 25px;
-  bottom: 25px;
-}
-.icon-fill {
-  fill: #000000;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
-  .conteiner-rest {
+  .conteiner {
     max-width: 918px;
     padding-left: 47px;
     padding-top: 0px;
     padding-bottom: 96px;
-  }
-  .rest {
-    overflow: visible;
   }
   .rest-img {
     width: 400px;
@@ -142,7 +105,9 @@
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: 0;
   }
-
+  .rest-page {
+    flex-wrap: nowrap;
+  }
   .rest-title {
     font-weight: 700;
     font-size: 64px;
@@ -176,6 +141,7 @@
   .rest-imge {
     width: 194px;
     height: 194px;
+    
   }
   .conteiner-foto {
     justify-content: flex-end;
@@ -201,11 +167,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .conteiner-rest {
+  .conteiner {
     max-width: 1110px;
   }
   .conteiner-foto {
+   
     margin-top: -35px;
+    
   }
   .rest-img {
     width: 460px;
@@ -232,5 +200,4 @@
     width: 254px;
     height: 254px;
   }
-  
 }

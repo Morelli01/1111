@@ -4,7 +4,6 @@
   position: relative;
   background: #FFFDEE;
   padding-bottom: 72px;
- 
 }
 
 
@@ -218,7 +217,7 @@
 @media (min-width: 1280px){
 
   .hotel-section{
-    padding-bottom: 29px;
+    padding-bottom: 122px;
   }
 
   .hotel-container{

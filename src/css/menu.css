@@ -1,0 +1,269 @@
+.menu-restaurant{
+    background-color: #FFFDEE;
+    padding-top: 32px;
+    padding-bottom: 32px;    
+  }
+  .tittle-hidden{
+    display: none;
+  }
+
+  .table-hot-meals{
+    margin-bottom: 16px;
+  }
+
+.table-food-price{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.table-food-weight{
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-right: 30px;
+}
+.table-food-name{
+    width: 250px;
+    /* margin-right: 32px; */
+}
+.table-food-ingredients{
+  font-family: Montserrat;
+  margin-right: 33px;
+  margin-bottom: 8px;
+  width: 225px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.dish-name{
+  font-family: Montserrat;
+  width: 225px; 
+  margin-right: 30px; 
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+  /* padding-right: 32px; */
+}
+.table-meals-title{
+    
+  font-family: Montserrat;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #000000;
+}
+.menu-restaurant-tittle{
+  font-family: "Times New Roman";  
+  text-transform: uppercase;  
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.menu-btn-position{
+    position: relative;
+    width: 414px;
+    height: 48px;
+    /* background-color: aqua; */
+}
+
+
+.desk-booking{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: block;
+    margin: auto;
+    width: 236px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background-color: #000000;;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #F3C653;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ .btn-hover:hover,
+ .btn-focus:focus{
+    background-color: #ffffff;
+}
+
+
+
+/*--------modal-window-booking-desk----------*/
+
+/* .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+.modal-booking-desk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 414px;
+    height: 668px;
+    background-color: #FFFDEE;
+}
+.close-modal-btn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #5555;
+}
+
+.close-modal-btn:hover .close-modal-btn-icon,
+.close-modal-btn:focus .close-modal-btn-icon{
+    fill: #c78f02;
+}
+
+.close-modal-btn-icon{
+    fill: #000000;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+/* .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} */
+
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*---------mobile---------*/
+@media screen and (min-width: 414px){
+    .container{
+        /* background-color: aquamarine; */
+        width: 414px;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+}
+/*---------tablet---------*/
+@media screen and (min-width: 1024px){
+    .menu-restaurant .container{
+        padding-top: 0;
+        width: 1024px;
+        padding-left: 47px;
+        padding-right: 47px;
+    }
+
+    .menu-restaurant{
+        background-color: #F0ECD6;
+        padding-top: 58px;
+        padding-bottom: 40px;
+    }
+    .dish-name{
+        margin-right: 47px;
+    }
+
+    .table-hot-meals{
+        margin-bottom: 0;
+      }
+
+    .menu-left-block-whole{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .menu-right-block-whole{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+    .menu-restaurant-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .desk-booking{
+        margin: 0;
+        top: 0;
+        left: 100%;
+        transform: translate(-100%,0);}
+    
+    .table-food-ingredients{
+        width: 226px;
+        margin-right: 44px;
+        margin-bottom: 12px;
+    }
+
+    .menu-btn-position{       
+        width: 929px;        
+    }
+}
+
+    
+/*---------desktop---------*/  
+@media screen and (min-width: 1280px){
+    .menu-restaurant .container{
+        width: 1280px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    .menu-restaurant{
+        padding-bottom: 60px;
+
+    }
+    .table-food-ingredients{
+        width: 257px;
+        margin-right: 65px;
+        margin-bottom: 12px;
+    }
+    .menu-restaurant-wrapper{
+        gap: 140px;
+    }
+
+    .dish-name{
+        width: 316px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .table-meals-title{
+        font-size: 24px;
+    }
+    .menu-btn-position{       
+        width: 1110px;
+          
+    }
+}

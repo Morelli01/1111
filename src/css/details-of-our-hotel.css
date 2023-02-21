@@ -1,0 +1,374 @@
+/* секція-фон */
+.det-hotel {
+    padding-top: 24px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/details-of-our-hotel/bg-mob_414.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+/* медіа запити з ретіною  (фонових зображень) */
+
+@media screen and (min-width:1023px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .det-hotel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/details-of-our-hotel/bg-desk_2560.jpg);
+    }
+}
+
+@media screen and (min-width:1023px) {
+    .det-hotel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/details-of-our-hotel/bg-desk_1280.jpg);
+    }
+}
+
+@media screen and (min-width:415px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .det-hotel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) url(../img/details-of-our-hotel/bg-tablet_2048.jpg);
+    }
+}
+
+@media screen and (min-width:415px) {
+    .det-hotel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+            url(../img/details-of-our-hotel/bg-tablet_1024.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .det-hotel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/details-of-our-hotel/bg-mob_828.jpg);
+    }
+}
+
+/* @media screen and (min-width:1024px) {
+   .det-hotel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+     url(../img/details-of-our-hotel/bg-tablet_1024.jpg);
+    padding-top: 48px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .det-hotel{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+         url(../img/details-of-our-hotel/bg-desk_1280.jpg);
+    }
+} */
+@media screen and (max-width:1279px) {
+    .det-hotel-desktop {
+        display: none;
+    }
+}
+
+/* лого */
+.det-hotel-mimino {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width:1024px) {
+    .det-hotel-mimino {
+        font-size: 64px;
+        margin-bottom: 16px;
+        margin-left: 529px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .det-hotel-mimino {
+        margin-left: 740px;
+    }
+}
+
+/* заголовок */
+.det-hotel-title {
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 186px;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:1024px) {
+    .det-hotel-title {
+        font-size: 24px;
+        margin-left: 644px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .det-hotel-title {
+        margin-bottom: 8px;
+        margin-left: 855px;
+    }
+}
+
+/* текст */
+.det-hotel-text {
+    width: 243px;
+    padding-left: 17px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 48px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #BABABA;
+}
+
+@media screen and (min-width:1024px) {
+    .det-hotel-text {
+        font-size: 16px;
+        width: 549px;
+        margin-left: 197px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .det-hotel-text {
+        width: 595px;
+        margin-bottom: 40px;
+        margin-left: 362px;
+    }
+}
+
+/* перелік зображень */
+.det-hotel-images {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width:1024px) {
+    .det-hotel-images {
+        margin-left: 47px;
+        margin-right: 32px;
+        margin-bottom: 24px;
+        gap: 34px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .det-hotel-images {
+        margin-left: 52px;
+        gap: 86px;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .lunch-mob {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .room-mob {
+        display: none;
+    }
+}
+
+.images-tablet {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .images-tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .images-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1279px) {
+
+    .room-tab-desk,
+    .lunch-desk,
+    .recep-desk {
+        display: none;
+    }
+}
+
+.image-arrow {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+}
+
+@media screen and (min-width:1024px) {
+    .image-arrow {
+        position: relative;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .image-arrow {
+        position: relative;
+    }
+}
+
+/* кнопка і посилання для таблетки */
+@media screen and (max-width:1023px) {
+    .btn-price-tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .btn-price-tablet {
+        bottom: 1%;
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+        display: flex;
+        gap: 16px;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .btn-price-tablet {
+        display: none;
+    }
+}
+
+/* @media screen and (min-width:1280px){
+.btn-price-tablet{
+    margin-left: -35px;
+}
+} */
+/* кнопка і посилання для десктопу */
+@media screen and (max-width:1279px) {
+    .btn-price-desk {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .btn-price-desk {
+        position: absolute;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-55%);
+        margin-right: 70px;
+    }
+}
+
+/* іконки-стрілки */
+.svg-icons {
+    display: flex;
+    gap: 32px;
+    margin-left: 276px;
+    margin-bottom: 32px;
+
+}
+
+@media screen and (min-width:1024px) {
+    .svg-icons {
+        margin-bottom: 0;
+        margin-left: 614px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .svg-icons {
+        margin-left: 828px;
+    }
+}
+
+.det-hotel-button {
+    padding: 0;
+    border: transparent;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.det-hotel-icon {
+    fill: currentColor;
+}
+
+@media screen and (max-width:1023px) {
+    .btn-price {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .btn-price {
+        display: none;
+    }
+}
+
+.det-hotel-btn {
+    width: 236px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #F3C653;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+@media screen and (min-width:1024px) {
+    .det-hotel-btn {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
+
+.det-hotel-btn-price {
+    width: 236px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #F3C653;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}

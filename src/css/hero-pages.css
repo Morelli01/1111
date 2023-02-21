@@ -455,6 +455,7 @@ ol {
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     margin-left: 32px;
+    height: 40px;
   }
   .header-item {
     display: flex;
@@ -676,6 +677,7 @@ ol {
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     margin-left: 32px;
+    height: 40px;
   }
   .header-item {
     display: flex;

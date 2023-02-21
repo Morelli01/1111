@@ -193,7 +193,7 @@
 
 
 .amenities-booking-svg {
-    fill: #FFFFFF;
+    fill: #000000;
 }
 
 .amenities-booking-svg:hover,
@@ -229,7 +229,7 @@
     background-color:rgba(46, 47, 66, 0.4);
 }
 
-.backdrop.is-hidden {
+.backdrop .is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -277,6 +277,10 @@
     right: 16px;
     background-color: transparent;
     border:none;
+}
+
+.amenities-icon {
+    fill: #000000;
 }
 
 .amenities-modal-title {

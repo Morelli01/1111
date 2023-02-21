@@ -1,6 +1,6 @@
 .footer-soc-tittle{
     display: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -65,11 +65,18 @@
 }
 
 .footer-site-nav-item {
-     margin-bottom: 16px;
-    }
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 144px;
+    height: 40px; */
+    margin-bottom: 16px;
+    /* border: 0.5px solid #F3C653;
+    border-radius: 2px; */
+}
 
 .footer-nav-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

@@ -8,6 +8,7 @@
     background-color: #F0ECD6;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .container-3-adult {
@@ -16,8 +17,10 @@
 }
 
 @media (max-width: 413px) {
+    .section-3-adult {
+
+    }
     .container-3-adult {
-        max-width: 414px;
         height: 1050px;
         margin-left: auto;
         margin-right: auto;
@@ -125,6 +128,7 @@
     }
 
     .adult-3-svg {
+        display: flex;
         position: absolute;
         left: 58%;
         top: 110%;
@@ -146,6 +150,7 @@
     .section-3-adult {
         height: 1050px;
         background-color: #F0ECD6;
+        overflow: visible;
     }
 
     .container-3-adult {
@@ -291,7 +296,7 @@
 
     .text-container-3 {
         margin-left: auto;
-        margin-right: 0;
+        margin-right: 30px;
         width: 439px;
         height: 80px;
     }
@@ -306,7 +311,9 @@
     }
     .mimino-container {
     display: flex;
-    justify-content: flex-end;
+    width: 202px;
+    height: 69px;
+    margin-left: 773px;
     }
 
     .headline-3-mimino {
@@ -327,7 +334,7 @@
         margin-top: 62px;
         margin-bottom: 16px;
         margin-left: auto;
-        margin-right: 65px;
+        margin-right: 95px;
         text-align: end;
     }
 
@@ -335,9 +342,9 @@
         font-family: 'Times New Roman', Times, serif;
         color: #B4B4B4;
         font-size: 32px;
-        line-height: 37px;
+        line-height: 36.8px;
         margin-bottom: 4px;
-        text-align: right;
+        margin-left: 656px;
     }
 
     .flex-3-adult {
@@ -381,7 +388,7 @@
     .bedroom-img-3-adult {
         width: 400px;
         height: 524px;
-        margin-right: 465px;
+        margin-left: 50px;
         margin-top: -395px;
     }
 
@@ -431,14 +438,13 @@
 
     .container-3-adult {
         position: relative;
-        width: 1280px;
+        width: auto;
         height: 100%;
         padding: 0;
     }
 
         .text-container-3 {
-            margin-left: auto;
-            margin-right: 30px;
+            margin-left: 58%;
             width: 439px;
             height: 80px;
         }
@@ -453,9 +459,7 @@
         }
     
         .mimino-container {
-            display: flex;
-            justify-content: end;
-    
+            margin-left: 77%;
         }
     
         .headline-3-mimino {
@@ -475,9 +479,7 @@
         letter-spacing: 0.05em;
         margin-top: 62px;
         margin-bottom: 16px;
-        margin-left: auto;
-        margin-right: 20px;
-        text-align: end;
+        margin-left: 58%;
         }
     
         .headline-3-adult {
@@ -486,9 +488,7 @@
             font-size: 32px;
             line-height: 37px;
             margin-bottom: 4px;
-            margin-left: auto;
-            margin-right: 20px;
-            text-align: end;
+            margin-left: 68%;
         }
     
         .flex-3-adult {
@@ -532,8 +532,8 @@
         .bedroom-img-3-adult {
             width: 460px;
             height: 574px;
-            margin-right: 465px;
-            margin-top: -395px;
+            margin-left: 85px;
+            margin-top: -415px;
         }
     
         .img-cup-3-adult {

@@ -50,17 +50,16 @@
     }
 }
 
-/* @media screen and (min-width:1024px) {
-   .det-hotel{
+/* @media screen and (min-width:1024px) {.det-hotel{
     background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-     url(./img/details-of-our-hotel/bg-tablet_1024.jpg);
+    url(./img/details-of-our-hotel/bg-tablet_1024.jpg);
     padding-top: 48px;
     }
 }
 @media screen and (min-width:1280px) {
     .det-hotel{
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-         url(./img/details-of-our-hotel/bg-desk_1280.jpg);
+        url(./img/details-of-our-hotel/bg-desk_1280.jpg);
     }
 } */
 @media screen and (max-width:1279px) {
@@ -398,7 +397,7 @@ z-index: 1;
             padding-right: 15px;
             padding-top: 60px;
             padding-bottom: 60px;
-             background-color: #FFFDEE;
+            background-color: #FFFDEE;
 }
 @media screen and (min-width:1280px) {
 .modal{
@@ -411,7 +410,7 @@ z-index: 1;
     top: 19px;
     right: 20px;
     background-color: transparent;
-           border: transparent;
+        border: transparent;
             
 }
 .modal-icon{
@@ -424,7 +423,7 @@ z-index: 1;
         line-height: 1.16;  
         letter-spacing: 0.05em;
         color: #000000;
-          text-align: center;
+        text-align: center;
             margin-bottom: 40px;
 }
 @media screen and (min-width:1280px) {
@@ -447,7 +446,9 @@ z-index: 1;
     flex-direction: column;
     
 }
-.form-field input ::placeholder{
+
+.input-style::placeholder{
+    font-family: 'Times New Roman';
     font-weight: 700;
         font-size: 24px;
         line-height: 1.16;
@@ -458,7 +459,7 @@ z-index: 1;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.25;
-               letter-spacing: 0.02em;
+            letter-spacing: 0.02em;
                     color: #C79002;
                     margin-bottom: 20px;                  
 }
@@ -466,8 +467,8 @@ z-index: 1;
 .input-style{
     margin-bottom: 8px;
     height: 54px;
-   width: 384px;
-   background-color: #FFFDEE;
+width: 384px;
+background-color: #FFFDEE;
 border: 1px solid #C79002;
 }
 
@@ -489,8 +490,8 @@ border: 1px solid #C79002;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-          color: #FFFFFF;
-          background-color:#000000;
+        color: #FFFFFF;
+        background-color:#000000;
         border: 1px solid #F3C653;
             border-radius: 2px;
-   }
+}

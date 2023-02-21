@@ -596,6 +596,7 @@
     width: 127px;
   }
   .nav-links {
+    height: 35px;
     font-size: 20px;
     line-height: 24px;
     gap: 32px;

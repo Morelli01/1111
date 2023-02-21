@@ -421,7 +421,7 @@
 .amenities-select-form::after {
     fill: #C79002;
     background-color: transparent;
-    background-image: url(../img/sprite.svg#icon-arrow-down-modal);
+    background-image: url(./img/sprite.svg#icon-arrow-down-modal);
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -106,7 +106,7 @@
     url(./img/mobile-hompage.jpg);
   background-position: center;
   background-size: cover;
-  margin: auto; 
+  margin: auto;
   height: 740px;
 }
 .hero-title {
@@ -793,7 +793,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/hompage-retina-pk.jpg);
+        url(../img/hompage-retina-pk.jpg);
       height: 720px;
     }
   }
@@ -806,7 +806,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/rest-pk-retina.jpg);
+        url(../img/rest-pk-retina.jpg);
         height: 720px;
     }
   }
@@ -819,7 +819,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/hotel-pk-retina.jpg);
+        url(../img/hotel-pk-retina.jpg);
         height: 720px;
     }
   }
@@ -834,7 +834,7 @@
           rgba(0, 0, 0, 0.2) 143px,
           rgba(0, 0, 0, 0) 26%
         ),
-        url(./img/hotel-pk-retina.jpg);
+        url(../img/hotel-pk-retina.jpg);
         height: 720px;
     }
   }

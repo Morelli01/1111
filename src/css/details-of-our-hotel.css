@@ -46,7 +46,7 @@
 (min-resolution: 2dppx) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(./img/details-of-our-hotel/bg-mob_828.jpg);
+            url(../img/details-of-our-hotel/bg-mob_828.jpg);
     }
 }
 
@@ -411,7 +411,7 @@ z-index: 1;
     right: 20px;
     background-color: transparent;
         border: transparent;
-            
+
 }
 .modal-icon{
     stroke: currentColor;
@@ -420,7 +420,7 @@ z-index: 1;
     font-family: 'Times New Roman';
     font-weight: 700;
         font-size: 24px;
-        line-height: 1.16;  
+        line-height: 1.16;
         letter-spacing: 0.05em;
         color: #000000;
         text-align: center;
@@ -435,7 +435,7 @@ z-index: 1;
     font-family: 'Times New Roman';
     font-weight: 700;
         font-size: 24px;
-        line-height: 1.16;   
+        line-height: 1.16;
         letter-spacing: 0.05em;
         color: #808080;
         margin-bottom: 28px;
@@ -444,7 +444,7 @@ z-index: 1;
     position: relative;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .input-style::placeholder{
@@ -461,7 +461,7 @@ z-index: 1;
         line-height: 1.25;
             letter-spacing: 0.02em;
                     color: #C79002;
-                    margin-bottom: 20px;                  
+                    margin-bottom: 20px;
 }
 
 .input-style{

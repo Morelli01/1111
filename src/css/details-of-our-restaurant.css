@@ -71,7 +71,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .details-rest {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./img/details-of-rest/bg-2x.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/details-of-rest/bg-2x.jpg);
         }
     }
 }
@@ -79,7 +79,7 @@
 
 .logo-details-rest {
     margin-bottom: 12px;
-    margin-left: 140px; 
+    margin-left: 140px;
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 1280px) {
     .logo-details-rest {
-        margin-left: 338px; 
+        margin-left: 338px;
     }
 }
 
@@ -141,7 +141,7 @@
     line-height: 1.25;
     /* line-height: calc (15 / 12); */
     letter-spacing: 0.02em;
-   
+
 
     color: #BABABA;
 }
@@ -177,7 +177,7 @@ overflow: hidden;
 
 .rest-booking {
     display: block;
-   
+
     min-width: 236px;
     min-height: 48px;
     margin-left: auto;
@@ -266,17 +266,17 @@ overflow: hidden;
         flex-direction: row-reverse;
         gap: 29px;
         align-items: end;
-          
+
         /* overflow: hidden; */
 
         margin-left: 32px;
         margin-right: 50px;
         }
-      
+
     .details-of-rest-list {
         gap: 34px;
         margin-bottom: 0;
-     
+
         }
 
     .raletive-wrap {
@@ -286,7 +286,7 @@ overflow: hidden;
     .details-of-rest-svg {
         bottom: -50px;
         }
- 
+
 }
 
 
@@ -304,5 +304,5 @@ overflow: hidden;
 
     }
 
-   
+
 }

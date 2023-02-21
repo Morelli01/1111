@@ -15,8 +15,6 @@
   padding: 16px 16px 72px 15px;
   min-width: 414px;
   margin: 0 auto;
-  
-  
 }
 .rest {
   background: #fffdee;
@@ -99,34 +97,30 @@
 }
 
 .conteiner-foto {
-  
   display: flex;
   gap: 25px;
   margin-left: 84px;
-  
 }
 .svg-btn {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: transparent;
-    border: none;
-    width: 32px;
-    height: 32px;
+  background-color: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
 }
 .rest-svg {
-    position: absolute;
-    display: flex;
-    gap: 32px;
-    right: 25px;
-    bottom: 25px;
+  position: absolute;
+  display: flex;
+  gap: 32px;
+  right: 25px;
+  bottom: 25px;
 }
 .icon-fill {
-    fill: #000000;
+  fill: #000000;
 }
-
 
 @media screen and (min-width: 1024px) {
   .conteiner-rest {
@@ -136,10 +130,8 @@
     padding-bottom: 96px;
   }
   .rest {
-  
-  overflow: visible;
-  
-}
+    overflow: visible;
+  }
   .rest-img {
     width: 400px;
     height: 524px;
@@ -150,7 +142,7 @@
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: 0;
   }
- 
+
   .rest-title {
     font-weight: 700;
     font-size: 64px;
@@ -184,7 +176,6 @@
   .rest-imge {
     width: 194px;
     height: 194px;
-    
   }
   .conteiner-foto {
     justify-content: flex-end;
@@ -210,9 +201,7 @@
     max-width: 1110px;
   }
   .conteiner-foto {
-   
     margin-top: -35px;
-    
   }
   .rest-img {
     width: 460px;
@@ -240,8 +229,7 @@
     height: 254px;
   }
   .rest-svg {
-   
     right: 95px;
     bottom: 40px;
-}
+  }
 }

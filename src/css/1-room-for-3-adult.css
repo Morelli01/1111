@@ -291,7 +291,7 @@
 
     .text-container-3 {
         margin-left: auto;
-        margin-right: 0;
+        margin-right: 30px;
         width: 439px;
         height: 80px;
     }
@@ -306,7 +306,9 @@
     }
     .mimino-container {
     display: flex;
-    justify-content: flex-end;
+    width: 202px;
+    height: 69px;
+    margin-left: 773px;
     }
 
     .headline-3-mimino {
@@ -327,7 +329,7 @@
         margin-top: 62px;
         margin-bottom: 16px;
         margin-left: auto;
-        margin-right: 65px;
+        margin-right: 95px;
         text-align: end;
     }
 
@@ -335,9 +337,9 @@
         font-family: 'Times New Roman', Times, serif;
         color: #B4B4B4;
         font-size: 32px;
-        line-height: 37px;
+        line-height: 36.8px;
         margin-bottom: 4px;
-        text-align: right;
+        margin-left: 656px;
     }
 
     .flex-3-adult {

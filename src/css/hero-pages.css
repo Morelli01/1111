@@ -403,7 +403,6 @@ ol {
         rgba(0, 0, 0, 0) 26%
       ),
       url(./img/hotelx2retina.jpg);
-      height: 76px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

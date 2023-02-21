@@ -63,11 +63,6 @@
          url(./img/details-of-our-hotel/bg-desk_1280.jpg);
     }
 } */
-@media screen and (max-width:1279px) {
-    .det-hotel-desktop {
-        display: none;
-    }
-}
 
 /* лого */
 .det-hotel-mimino {
@@ -176,44 +171,14 @@
     }
 }
 
-@media screen and (min-width:1024px) {
-    .lunch-mob {
-        display: none;
-    }
+.list-images{
+    display: flex;
+}
+.item-image{
+    flex-shrink: 0;
 }
 
-@media screen and (min-width:1024px) {
-    .room-mob {
-        display: none;
-    }
-}
-
-.images-tablet {
-    display: none;
-}
-
-@media screen and (min-width:1024px) {
-    .images-tablet {
-        display: block;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .images-tablet {
-        display: none;
-    }
-}
-
-@media screen and (max-width:1279px) {
-
-    .room-tab-desk,
-    .lunch-desk,
-    .recep-desk {
-        display: none;
-    }
-}
-
-.image-arrow {
+/* .image-arrow {
     display: flex;
     flex-direction: column;
     margin-left: -15px;
@@ -226,64 +191,12 @@
                 margin-right: -47px;
     }
 }
-
-@media screen and (min-width:1280px) {
-    .image-arrow {
-        position: relative;
-    }
-}
-
-/* кнопка і посилання для таблетки */
-@media screen and (max-width:1023px) {
-    .btn-price-tablet {
-        display: none;
-    }
-}
-
 @media screen and (min-width:1024px) {
-    .btn-price-tablet {
-        bottom: 1%;
-        position: absolute;
-        right: 0;
-        transform: translateY(-50%);
-        display: flex;
-        gap: 16px;
-        justify-content: flex-end;
-        flex-direction: column;
-        margin-right: 32px;
+    .image-arrow-buttons {
+        position: relative;
+        
     }
-}
-
-@media screen and (min-width:1280px) {
-    .btn-price-tablet {
-        display: none;
-    }
-}
-
-/* @media screen and (min-width:1280px){
-.btn-price-tablet{
-    margin-left: -35px;
-}
 } */
-/* кнопка і посилання для десктопу */
-@media screen and (max-width:1279px) {
-    .btn-price-desk {
-        display: none;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .btn-price-desk {
-        position: absolute;
-        display: flex;
-        gap: 16px;
-        flex-direction: column;
-        bottom: 0;
-        right: 0;
-        transform: translateY(-55%);
-        margin-right: 70px;
-    }
-}
 
 /* іконки-стрілки */
 .svg-icons {
@@ -318,20 +231,33 @@
     fill: currentColor;
 }
 
-@media screen and (max-width:1023px) {
     .btn-price {
         display: flex;
         flex-direction: column;
         gap: 16px;
         align-items: center;
     }
-}
+
 
 @media screen and (min-width:1024px) {
     .btn-price {
-        display: none;
+        bottom: 1%;
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%); 
+        display: flex;
+        gap: 16px;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-right: 0;
     }
 }
+@media screen and (min-width:1280px){
+    .btn-price{
+        margin-right: 32px;
+    }
+}
+
 
 .det-hotel-btn {
     width: 236px;
@@ -447,6 +373,9 @@ z-index: 1;
     flex-direction: column;
     
 }
+
+.input-style::placeholder{
+    font-family: 'Times New Roman';
 .form-field input ::placeholder{
     font-weight: 700;
         font-size: 24px;
@@ -463,6 +392,7 @@ z-index: 1;
                     margin-bottom: 20px;                  
 }
 
+.input-style-first{
 .input-style{
     margin-bottom: 8px;
     height: 54px;
@@ -470,7 +400,13 @@ z-index: 1;
    background-color: #FFFDEE;
 border: 1px solid #C79002;
 }
-
+.input-style {
+    margin-bottom: 8px;
+    height: 54px;
+    width: 384px;
+    background-color: #FFFDEE;
+    border: 1px solid #C79002;
+}
 
 
 

@@ -5,9 +5,52 @@
         <h3 class="det-hotel-title">Готель</h3>
         <p class="det-hotel-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequat duis enim velit mollit.</p>
-
+            <div class="image-arrow-buttons">
         <div class="image-arrow">
             <div class="det-hotel-images">
+                  <ul class="list-images">
+                    <li class="item-image">
+                    <img src="../img/details-of-our-hotel/lunch-tablet.jpg"
+                     alt="lunch" width="162" height="270">
+                       </li>
+
+                       <li class="item-image">
+                          <img src="../img/details-of-our-hotel/" 
+                          alt="кімната" width="274" height="270" >
+                     </li>
+
+                   <li class="item-image"> 
+                    <img src="../img/details-of-our-hotel/recep-tablet_162.jpg" 
+                    alt="recep" width="162" height="270">
+                </li>
+
+                <li class="item-image">
+                     <img src="../img/details-of-our-hotel/lunch-tablet_162.jpg"
+                      alt="lunch" width="162" height="270">    
+                 </li>
+
+                    <li class="item-image">
+                 <img src="../img/details-of-our-hotel/room-tablet_270.jpg"
+                  alt="room-tablet" width="270" height="270">
+              </li>  
+
+                  <li class="item-image">
+                 <img src="../img/details-of-our-hotel/room-tab-desk_270.jpg" 
+                 alt="romm-desk" width="270" height="270">
+                  </li>
+
+                    <img src="../img/details-of-our-hotel/lunch-desk_162.jpg"
+                     alt="lunch-desk" width="162" height="270">
+                     </li>
+
+                        <li class="item-image"> 
+                          <img src="../img/details-of-our-hotel/recep-desk_270.jpg"
+                           alt="recep-desk" width="270" height="270"> 
+                            </li>
+                  </ul>
+                  
+            <!-- <div class="btn-price-tablet">
+=======
                 <div class="lunch-mob">
                     <picture>
                         <source media="(min-width:414px)" srcset="
@@ -100,11 +143,11 @@
             <div class="btn-price-tablet">
                 <button type="button" class="det-hotel-btn">Забронювати номер</button>
                 <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
-            </div>
-            <div class="btn-price-desk">
+            </div> -->
+            <!-- <div class="btn-price-desk">
                 <button type="button" class="det-hotel-btn">Забронювати номер</button>
                 <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
-            </div>
+            </div> -->
             <div class="svg-icons">
                 <button type="button" class="det-hotel-button">
                     <svg class="det-hotel-icon" width="32" height="32">
@@ -120,6 +163,11 @@
         </div>
         <div class="btn-price">
             <button data-modal-open type="button" class="det-hotel-btn">Забронювати номер</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button data-modal-close class="button-close">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="../img/sprite.svg#icon-x"></use>
             <div class="backdrop" data-modal>
                 <div class="modal">
                     <button data-modal-close class="button-close">
@@ -132,12 +180,16 @@
                         <p class="form-text">Двомісний люкс</p>
                         <form class="form-modal">
                             <div class="form-field">
+                                <label for="number" class="label-number">Категорія номеру</label>
+                                  <input type="number" name="number"  placeholder="1" class="input-style" >    
                                 <label for="name" class="label-number">Категорія номеру</label>
                                 <input type="number" name="number" id="number" placeholder="1" class="input-style" >    
                                 <label for="number" class="label-number">Кількість ночей</label>
                             </div>
 
                             <div class="form-field">
+                             <input type="number" name="number" placeholder="1000" class="input-style">
+                             <label for="number" class="label-number">грн</label>
                             <input type="number" name="number" id="number" placeholder="1000" class="input-style">
                             <label for="number" class="label-number">грн</label>
                             </div>
@@ -147,6 +199,7 @@
                 </div>
             </div>
             <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
+        </div>
         </div>
     </div>
     <script src="../modal.js"></script>

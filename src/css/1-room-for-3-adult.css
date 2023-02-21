@@ -8,7 +8,6 @@
     background-color: #F0ECD6;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 }
 
 .container-3-adult {
@@ -150,7 +149,6 @@
     .section-3-adult {
         height: 1050px;
         background-color: #F0ECD6;
-        overflow: visible;
     }
 
     .container-3-adult {

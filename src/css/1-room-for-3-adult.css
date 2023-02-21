@@ -16,8 +16,10 @@
 }
 
 @media (max-width: 413px) {
+    .section-3-adult {
+
+    }
     .container-3-adult {
-        max-width: 414px;
         height: 1050px;
         margin-left: auto;
         margin-right: auto;
@@ -127,6 +129,7 @@
     }
 
     .adult-3-svg {
+        display: flex;
         position: absolute;
         left: 58%;
         top: 110%;
@@ -435,7 +438,7 @@
 
     .container-3-adult {
         position: relative;
-        width: 1280px;
+        width: auto;
         height: 100%;
         padding: 0;
     }

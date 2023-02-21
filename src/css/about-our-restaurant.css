@@ -121,6 +121,10 @@
 .icon-fill {
   fill: #000000;
 }
+.icon-fill:hover,
+.icon-fill:focus{
+  fill: #F3C653;
+}
 
 @media screen and (min-width: 1024px) {
   .conteiner-rest {
@@ -195,7 +199,7 @@
     color: #c79002;
   }
   .rest-svg {
-    right: 95px;
+    right: 65px;
     bottom: 40px;
   }
 }
@@ -233,4 +237,8 @@
     height: 254px;
   }
   
+  .rest-svg {
+    right: 95px;
+    bottom: 40px;
+  }
 }

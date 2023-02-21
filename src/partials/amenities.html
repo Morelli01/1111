@@ -1,13 +1,8 @@
-<link rel="stylesheet" href="/src/css/amenities.css">
-<link rel="stylesheet" href="/src/css/reset.css">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-
 <section class="amenities-section">
-    <div class="container">
+    <div class="container-amenities">
         <div class="amenities">
                 <h2 class="amenities-title">ЗРУЧНОСТІ У НОМЕРІ</h2>
-                <p class="text-subtitle">
+                <p class="amenities-text-subtitle">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                     sint. Velit officia consequat duis enim velit mollit. Exercitation
                     veniam consequat sunt nostrud amet.
@@ -63,69 +58,70 @@
                     </li>
                 </ul>
             </div>
-
-                <div class="booking">
-                    <button data-modal-open type="button" class="booking-button" >ОФОРМИТИ БРОНЮВАННЯ</button>
-                    <div class="booking-link">
-                    <a href="./hotel.html" class="hotel-link">Повернутися до перегляду номерів
-                        <svg class="booking-svg" width="30" height="17">
-                            <use href="../img/sprite.svg#icon-arrow-right"></use>
+    </div>
+    <div class="amenities-booking">
+            <button data-modal-open type="button" class="amenities-booking-button" >ОФОРМИТИ БРОНЮВАННЯ</button>
+                <div class="amenities-booking-link">
+                    <a href="./hotel.html" class="amenities-hotel-link">Повернутися до перегляду номерів
+                        <svg class="amenities-booking-svg" width="30" height="17">
+                            <use href="./img/sprite.svg#icon-arrow-right"></use>
                         </svg>
                     </a>
-                    </div>
                 </div>
-            <div class="backdrop is-hidden" data-modal>
-                <div class="amenities-modal">
-                    <button class="amenities-modal-close" data-modal-close>
-                        <svg class="amenities-icon" width="24" height="24">
-                            <use href="../img/sprite.svg#icon-close"></use>
-                        </svg>
-                    </button>
+    </div>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="amenities-modal">
+                <button class="amenities-modal-close" data-modal-close>
+                    <svg class="amenities-icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
                     <p class="amenities-modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
-                    <form class="amenities-form">
-                        <label class="modal-form-label"></label>
-                        <input type="text" class="modal-input" name="name" id="name" placeholder="Ваше ім’я">
-                        <span class="modal-text">На кого забронювати номер?</span>
-
-                        <label class="modal-form-label"></label>
-                        <input type="text" class="modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__">
-                        <span class="modal-text">Номер телефону</span>
-
-                        <label class="modal-form-label"></label>
-                        <span class="modal-wrap">
-                        <input type="text" class="modal-input wrap" name="number" id="number" placeholder="Двомісний люкс">
-                        <svg class="modal-svg" width="24" height="24">
-                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
-                        </svg>
-                        </span>
-                        <span class="modal-text">Категорія номеру</span>
-
+                <form class="amenities-form">
+                        <label class="amenities-modal-form-label">
+                        <input type="text" class="amenities-modal-input" name="name" id="name" placeholder="Ваше ім’я" required pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$">
+                        <span class="amenities-span">На кого забронювати номер?</span>
+                    </label>
                         
-                        <label class="modal-form-label"></label>
-                        <span class="modal-wrap">
-                            <input type="text" class="modal-input" name="day" id="dayr" placeholder="Сьогодні">
-                            <svg class="modal-svg" width="24" height="24">
-                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
-                            </svg>
-                        </span>
-                        <span class="modal-text">Дата заїзду</span>
-                        
-                        
-                        <label class="modal-form-label"></label>
-                        <span class="modal-wrap">
-                            <input type="text" class="modal-input" name="day" id="day" placeholder="Сьогодні">
-                            <svg class="modal-svg" width="24" height="24">
-                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
-                            </svg>
-                        </span>
-                        <span class="modal-text">Дата виїзду</span>
+                        <label class="amenities-modal-form-label">
+                        <input type="text" class="amenities-modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__" required pattern="+38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+                        <span class="amenities-span">Номер телефону</span>
+                        </label>
+                    
+                        <div class="amenities-select-wrap">
+                            <label class="amenities-modal-form-label">
+                                <select id="room-category"  name="room-category" class="amenities-select-form double">
+                                <option value="Dooble-room" selected>Двомісний номер</option>
+                                <option value="Dooble-luxe-room">Двомісний люкс</option>
+                                <option value="Triple-room">Трьохмісний номер</option>
+                                </select>
+                                <span class="amenities-span">Категорія номеру</span>
+                            </label>
+                        </div>
+                       
+                            <label class="amenities-modal-form-label">
+                            <select id="check-in"  name="check-in" class="amenities-select-form">
+                            <option value="Сьогодні" selected>Cьогодні</option>
+                            <option value="Завтра">Завтра</option>
+                            <option value="Післязавтра">Післязавтра</option>
+                        </select>
+                            <span class="amenities-span primary">Дата заїзду</span>
+                            </label>
 
-                        <button type="submit" class="button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
-                    </form>
-                </div>
+                            <label class="amenities-modal-form-label">
+                       <select id="check-out" name="check-out" class="amenities-select-form">
+                            <option value="Сьогодні" selected>Сьогодні</option>
+                            <option value="Завтра">Завтра</option>
+                            <option value="Післязавтра">Післязавтра</option>
+                        </select>
+                            <span class="amenities-span primary">Дата виїзду</span>
+                            </label>
+                    <div class="amenities-submit">  
+                    <button type="submit" class="amenities-button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <a href="./amenities.html"></a>
+                    </div>
+                </form>
         </div>
     </div>
 </section>
 <script src="./modal.js"></script> 
-
-

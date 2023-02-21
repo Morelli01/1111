@@ -104,11 +104,9 @@
     background-color: #ffffff;
 }
 
-
-
 /*--------modal-window-booking-desk----------*/
 
-/* .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -125,6 +123,7 @@
     width: 414px;
     height: 668px;
     background-color: #FFFDEE;
+    padding: 60px 15px;
 }
 .close-modal-btn {
     position: absolute;
@@ -137,7 +136,8 @@
     padding: 0;
     width: 24px;
     height: 24px;
-    border: 1px solid #5555;
+    border: none;
+    /* border: 1px solid #5555; */
 }
 
 .close-modal-btn:hover .close-modal-btn-icon,
@@ -146,10 +146,12 @@
 }
 
 .close-modal-btn-icon{
-    fill: #000000;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-/* .visually-hidden {
+    width: 24px;
+    height: 24px;
+    stroke: #000000;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -160,7 +162,104 @@
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-} */
+}
+
+/* ---------FORM-------- */
+.desk-modal-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.desk-modal-input{
+    font-family: 'Times New Roman', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.05em;
+color: #808080;
+    width: 100%;
+    height: 54px;
+    background-color: transparent;
+    border: 1px solid #C79002;
+    border-radius: 1px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    border-radius: 2px;    
+}
+
+.desk-modal-input-desc{
+display: block;
+margin-bottom: 20px;
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.21;
+letter-spacing: 0.02em;
+color: #C79002;
+}
+.desk-modal-tittle{
+font-family: 'Times New Roman', sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #000000;
+margin-bottom: 40px;
+text-align: center;
+}
+.desk-modal-btn-submit{
+background: #000000;
+border: 1px solid #F3C653;
+border-radius: 2px;
+width: 384px;
+height: 64px;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+margin-top: 20px;
+}
+.desk-modal-input::placeholder{
+font-family: 'Times New Roman', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+letter-spacing: 0.05em;
+color: #808080;
+}
+.drop-down-number{
+font-family: 'Times New Roman', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.05em;
+color: #808080;
+}
+.desk-modal-input-wrapper1{
+    position: relative;
+}
+.desk-modal-input-wrapper2{
+    position: relative;
+}
+.desk-modal-errow-icon{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-65%);
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    fill: #C79002; 
+}
+.desk-modal-input:focus{
+    outline: none;
+    border-color: #808080;
+}
+
 
 
 .container{
@@ -231,8 +330,40 @@
     .menu-btn-position{       
         width: 929px;        
     }
-}
 
+
+/* ---------desk-modal-form--------- */
+
+.desk-modal-form{
+    display: flex;
+    flex-direction: row;
+}
+.modal-booking-desk {
+    width: 712px;
+    height: 522px;
+    padding: 60px 60px;
+}
+.desk-modal-tittle{
+    font-size: 40px;
+    }
+    .desk-modal-input{
+        width: 288px;
+        height: 64px;
+        font-size: 20px;  
+    }
+    .desk-modal-form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 28px 16px;
+    }
+    .desk-modal-input-desc{
+        margin-bottom: 0;
+    }
+    .desk-modal-btn-submit{
+        width: 592px;
+        }
+    }
     
 /*---------desktop---------*/  
 @media screen and (min-width: 1280px){
@@ -267,3 +398,5 @@
           
     }
 }
+
+

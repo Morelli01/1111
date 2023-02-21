@@ -1,7 +1,13 @@
+.amenities-section {
+    background-color: #FFFDEE;
+
+}
+
 .container-amenities {
     width: 414px;
     padding: 32px 15px;
     margin: 0 auto;
+    background-color: #FFFDEE;
 }
     @media screen and (min-width: 320px) and (max-width: 413px) {
         .container-amenities {
@@ -31,11 +37,6 @@
         width: 1280px;
 
     }   
-}
-
-.amenities-section {
-    background-color: #FFFDEE;
-
 }
 
 /* .amenities {} */

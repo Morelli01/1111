@@ -343,7 +343,7 @@
         rgba(0, 0, 0, 0) 26%
       ),
       url(../img/hotelx2retina.jpg);
-      height: 765px;
+      height: 76px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -558,7 +558,7 @@
           rgba(0, 0, 0, 0.65)
         ),
         url(../img/hotel-tablet-retina.jpg);
-        height: 718px;
+        height: 741px;
     }
   }
   @media (min-device-pixel-ratio: 2),
@@ -573,7 +573,7 @@
           rgba(0, 0, 0, 0) 26%
         ),
         url(../img/hotel-tablet-retina.jpg);
-        height: 718px;
+        height: 741px;
     }
   }
 }

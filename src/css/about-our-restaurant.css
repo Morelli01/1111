@@ -87,10 +87,6 @@
   margin-left: 84px;
   overflow: hidden;
 }
-.icon-fill:hover,
-.icon-fill:focus{
-  fill: #F3C653;
-}
 
 @media screen and (min-width: 1024px) {
   .conteiner {
@@ -165,7 +161,7 @@
     color: #c79002;
   }
   .rest-svg {
-    right: 65px;
+    right: 95px;
     bottom: 40px;
   }
 }
@@ -204,11 +200,4 @@
     width: 254px;
     height: 254px;
   }
-
-  
-  .rest-svg {
-    right: 95px;
-    bottom: 40px;
-  }
-
 }

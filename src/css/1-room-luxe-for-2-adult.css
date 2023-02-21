@@ -120,8 +120,8 @@
 
     .luxe-svg {
         position: absolute;
-        left: 17px;
-        top: 220px;
+        left: 0;
+        bottom: -59px;
     }
 
     .svg-btt {
@@ -243,8 +243,8 @@
 
     .luxe-svg {
         position: absolute;
-        left: 5px;
-        top: 220px;
+        left: 0;
+        bottom: -59px;
     }
 
     .svg-btt {
@@ -378,10 +378,9 @@
     }
 
     .luxe-svg {
-        display: flex;
         position: absolute;
-        left: 75%;
-        top: 110%;
+        right: 0;
+        bottom: -70px;
     }
 
     .svg-btt {
@@ -392,6 +391,7 @@
     }
 
     .svg-btt:not(:last-child) {
+        margin-right: 32px;
     }
 }
 
@@ -408,6 +408,7 @@
     .container-luxe {
         width: 1280px;
         position: relative;
+        width: 1280px;
         height: 100%;
         padding: 0;
     }
@@ -518,10 +519,9 @@
     }
 
     .luxe-svg {
-        display: flex;
         position: absolute;
-        left: 75%;
-        top: 110%;
+        right: 0;
+        bottom: -120px;
     }
 
     .svg-btt {

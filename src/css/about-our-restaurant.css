@@ -1,13 +1,10 @@
-.conteiner-rest {
+.conteiner {
   padding: 16px 16px 72px 15px;
   max-width: 414px;
   margin: 0 auto;
 }
 .rest {
   background: #fffdee;
-  position: relative;
-  
-  
 }
 .rest-page {
   display: flex;
@@ -85,49 +82,18 @@
 }
 
 .conteiner-foto {
- 
-    position: relative;
-
-}
-.rest-list{
-   display: flex;
+  display: flex;
   gap: 25px;
   margin-left: 84px;
-    overflow: hidden;
-}
-.rest-item{
-  flex-shrink: 0;
-  }
-.svg-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: transparent;
-  border: none;
-  width: 32px;
-  height: 32px;
-}
-.rest-svg {
-  position: absolute;
-  display: flex;
-  gap: 32px;
-  right: 25px;
-  bottom: 25px;
-}
-.icon-fil {
-  fill: #000000;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
-  .conteiner-rest {
+  .conteiner {
     max-width: 918px;
     padding-left: 47px;
     padding-top: 0px;
     padding-bottom: 96px;
-  }
-  .rest{
-    overflow: visible;
   }
   .rest-img {
     width: 400px;
@@ -139,7 +105,9 @@
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: 0;
   }
- 
+  .rest-page {
+    flex-wrap: nowrap;
+  }
   .rest-title {
     font-weight: 700;
     font-size: 64px;
@@ -199,7 +167,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .conteiner-rest {
+  .conteiner {
     max-width: 1110px;
   }
   .conteiner-foto {

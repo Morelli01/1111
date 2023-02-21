@@ -121,8 +121,42 @@
             </div>
         </div>
         <div class="btn-price">
-            <button type="button" class="det-hotel-btn">Забронювати номер</button>
+            <button data-modal-open type="button" class="det-hotel-btn">Забронювати номер</button>
+            <div class="backdrop" data-modal>
+                <div class="modal">
+                    <button data-modal-close class="button-close">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="../img/sprite.svg#icon-x"></use>
+                        </svg>
+                    </button>
+                    <div class="form-index">
+                        <h1 class="form-header">ЦІНИ НА НОМЕР</h1>
+                        <p class="form-text">Двомісний люкс</p>
+                        <form class="form-modal">
+                            <div class="form-field">
+                                <label for="name" class="label-number">Категорія номеру</label>
+                                  <input type="number" name="number" id="number" placeholder="1" class="input-style" >    
+                                <label for="number" class="label-number">Кількість ночей</label>
+                            </div>
+
+                            <div class="form-field">
+                             <input type="number" name="number" id="number" placeholder="1000" class="input-style">
+                             <label for="number" class="label-number">грн</label>
+                            </div>
+                            <button type="submit" class="form-btn">ЗАБРОНЮВАТИ НОМЕР</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
             <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
         </div>
     </div>
+    <script src="../modal.js"></script>
 </section>

@@ -1,0 +1,872 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style-type: none;
+}
+
+.link {
+  list-style: none;
+}
+
+@font-face {
+  font-family: Film p3;
+  src: url(../fonts/FilmP3Bold.woff), url(../fonts/FilmP3Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+.contact-number {
+  display: none;
+}
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+  .contact-number {
+    display: none;
+  }
+}
+.header {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.container {
+  max-width: 414px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-navigation {
+  gap: 52px;
+  display: flex;
+}
+.header > .container {
+  display: flex;
+}
+.header-list-adope {
+  padding-top: 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-links {
+  display: flex;
+  gap: 6px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  text-decoration: none;
+}
+.header-link {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 16px;
+  width: 114px;
+}
+.header-link:focus {
+  outline: none;
+}
+
+.phone-header-svg-icon {
+  fill: #f3c653;
+}
+.phone-header-svg-map {
+  fill: #f3c653;
+  margin-right: 8px;
+}
+
+.geo-map-header {
+  display: flex;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+  text-decoration: none;
+  padding: 8px 8px 8px 8px;
+  align-items: center;
+}
+.geo-item-header {
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+}
+.header-list-map {
+  position: absolute;
+  display: flex;
+  top: 64px;
+  left: 170px;
+}
+.geo-span-text {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+  width: 170px;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/mobile-hompage.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.hero-title {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 103px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  padding-top: 188px; /*70px */
+  max-width: 303px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.hero-paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.heroh3text {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.btn-stolik {
+  display: block;
+  margin: auto;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  width: 236px;
+  height: 48px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.btn-ones1 {
+  margin-bottom: 24px;
+}
+.btn-ones2 {
+  margin-bottom: 58px;
+}
+
+.btn-stolik:hover {
+  background: #ffffff;
+  border: 2px solid #f3c653;
+  border-radius: 25px;
+}
+.btn-stolik:focus {
+  background: #ffffff;
+  border: 2px solid #f3c653;
+  border-radius: 25px;
+}
+.hero-social-list {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 22px;
+}
+.hero-social-icon {
+  fill: rgba(243, 198, 83, 0.7);
+}
+.hero-paragraph-rest {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #fdfbec;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.hero-title-rest {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 103px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  padding-top: 188px;
+  max-width: 303px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.hero-rest {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/mobile-rest.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.hero-hotel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/mobile-hotel.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.hero-paragraph-hotel {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 178px;
+}
+.hero-title-hotel {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 103px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  padding-top: 188px;
+  max-width: 303px;
+  margin: auto;
+  margin-bottom: 32px;
+}
+.relavtive-box {
+  position: relative;
+}
+.hero-nomer {
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.2) 143px,
+      rgba(0, 0, 0, 0) 26%
+    ),
+    url(../img/mobile-hotel.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.hero-title-nomer {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-top: 470px;
+  margin-bottom: 14px;
+}
+.luxe-deluxe-nomer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 325px;
+}
+.hero-social-list-nomer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 14px;
+}
+.btn-problesk {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+.grom-classe-ultra {
+  position: relative;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/hompagex2renita.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-rest {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/retinax2rest.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/hotelx2retina.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-nomer {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.2) 143px,
+        rgba(0, 0, 0, 0) 26%
+      ),
+      url(../img/hotelx2retina.jpg);
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet-hompage.jpg);
+  }
+  .header-link {
+    font-size: 40px;
+    line-height: 43px;
+    width: 127px;
+  }
+  .nav-links {
+    font-size: 20px;
+    line-height: 24px;
+    gap: 32px;
+    align-items: center;
+  }
+  .header-navigation {
+    gap: 207px;
+  }
+  .header {
+    padding-top: 24px;
+  }
+  .header-list-adope {
+    padding-top: 0px;
+    gap: 72px;
+  }
+  .header-link {
+    margin-top: 0px;
+  }
+  .contact-number {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+  .contact-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    margin-left: 32px;
+  }
+  .header-item {
+    display: flex;
+  }
+  .hero-title {
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+    margin-bottom: 16px;
+  }
+
+  .hero-paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 56px;
+  }
+  .heroh3text {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 145px;
+  }
+  .phone-header-svg-icon {
+    display: none;
+  }
+  .phone-header-svg-tablet {
+    fill: #f3c653;
+    margin-right: 4px;
+  }
+  .header-list-map {
+    position: absolute;
+    display: flex;
+    top: 600px;
+    left: 0px;
+  }
+  .geo-span-text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 225px;
+  }
+  .hero-social-list {
+    padding-bottom: 15px;
+  }
+  .btn-hero-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+  .btn-stolik {
+    margin: unset;
+    margin-bottom: 25px;
+  }
+  .hero-rest {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet-rest.jpg);
+  }
+  .hero-title-rest {
+    margin-bottom: 16px;
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+  }
+  .hero-paragraph-rest {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 56px;
+  }
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/tablet-hotel.jpg);
+  }
+  .hero-title-hotel {
+    margin-bottom: 32px;
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+  }
+  .hero-paragraph-hotel {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 226px;
+  }
+  .hero-nomer {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.2) 143px,
+        rgba(0, 0, 0, 0) 26%
+      ),
+      url(../img/tablet-hotel.jpg);
+  }
+  .hero-title-nomer {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 24px;
+  }
+  .luxe-deluxe-nomer {
+    font-size: 16px;
+    line-height: 20px;
+    width: 400px;
+  }
+  .btn-problesk {
+    left: 698px;
+    top: -10px;
+  }
+  .hero-social-list-nomer {
+    margin-top: 42px;
+    display: flex;
+    gap: 22px;
+    padding-bottom: 36px;
+    flex-direction: row;
+    width: 440px;
+    justify-content: flex-end;
+  }
+  .nomer-otel-qrs {
+    position: absolute;
+    top: 641px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/hompagex2-tablet-retina.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-rest {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/retinax2tabletrest.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-hotel {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/hotel-tablet-retina.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-nomer {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.2) 143px,
+          rgba(0, 0, 0, 0) 26%
+        ),
+        url(../img/hotel-tablet-retina.jpg);
+    }
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 16000px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/pkhompage.jpg);
+  }
+  .header-link {
+    font-size: 40px;
+    line-height: 43px;
+    width: 127px;
+  }
+  .nav-links {
+    font-size: 20px;
+    line-height: 24px;
+    gap: 32px;
+    align-items: center;
+  }
+  .header-navigation {
+    gap: 135px;
+  }
+  .header {
+    padding-top: 24px;
+  }
+  .header-list-adope {
+    padding-top: 0px;
+    gap: 72px;
+  }
+  .header-link {
+    margin-top: 0px;
+  }
+  .contact-number {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+  .contact-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    margin-left: 32px;
+  }
+  .header-item {
+    display: flex;
+  }
+  .hero-title {
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+    margin-bottom: 32px;
+    padding-top: 164px;
+  }
+
+  .hero-paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 64px;
+  }
+  .heroh3text {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 145px;
+  }
+  .phone-header-svg-icon {
+    display: none;
+  }
+  .phone-header-svg-tablet {
+    fill: #f3c653;
+    margin-right: 4px;
+  }
+  .header-list-map {
+    position: absolute;
+    display: flex;
+    top: 600px;
+    left: 0px;
+  }
+  .geo-span-text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 225px;
+  }
+  .hero-social-list {
+    padding-bottom: 15px;
+  }
+  .btn-hero-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  .btn-stolik {
+    margin: unset;
+    margin-bottom: 25px;
+  }
+  .hero-social-list {
+    position: absolute;
+    max-width: 100px;
+    padding-bottom: 15px;
+    top: -688px;
+    right: 10px;
+  }
+  .contact-hero-social {
+    position: relative;
+  }
+  .hero-rest {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/pk-rest.jpg);
+  }
+  .hero-title-rest {
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+    margin-bottom: 32px;
+    padding-top: 164px;
+  }
+  .hero-paragraph-rest {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 64px;
+  }
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/pk-otel.jpg);
+  }
+  .hero-title-hotel {
+    font-size: 128px;
+    line-height: 138px;
+    max-width: 404px;
+    margin-bottom: 32px;
+    padding-top: 164px;
+  }
+  .hero-paragraph-hotel {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 249px;
+  }
+  .hero-nomer {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.2) 143px,
+        rgba(0, 0, 0, 0) 26%
+      ),
+      url(../img/pk-otel.jpg);
+  }
+  .hero-title-nomer {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 24px;
+    padding-top: 527px;
+  }
+  .luxe-deluxe-nomer {
+    font-size: 16px;
+    line-height: 20px;
+    width: 400px;
+    padding-bottom: 48px;
+  }
+  .btn-problesk {
+    left: 800px;
+    top: -110px;
+  }
+  .hero-social-list-nomer {
+    margin-top: 42px;
+    display: flex;
+    gap: 22px;
+    padding-bottom: 36px;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-end;
+  }
+  .nomer-otel-qrs {
+    position: absolute;
+    top: 641px;
+  }
+  .nomer-otel-qrs {
+    display: none;
+  }
+  .hero-social-list-nomer {
+    position: absolute;
+    display: flex;
+    gap: 22px;
+    flex-direction: row;
+    width: 100px;
+    top: -725px;
+    right: 10px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/hompage-retina-pk.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-rest {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/rest-pk-retina.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-hotel {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../img/hotel-pk-retina.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-nomer {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.2) 143px,
+          rgba(0, 0, 0, 0) 26%
+        ),
+        url(../img/hotel-pk-retina.jpg);
+    }
+  }
+}

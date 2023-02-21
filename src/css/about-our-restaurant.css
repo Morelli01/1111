@@ -194,6 +194,10 @@
 
     color: #c79002;
   }
+  .rest-svg {
+    right: 95px;
+    bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -228,8 +232,5 @@
     width: 254px;
     height: 254px;
   }
-  .rest-svg {
-    right: 95px;
-    bottom: 40px;
-  }
+  
 }

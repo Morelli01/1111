@@ -397,7 +397,7 @@ z-index: 1;
             padding-right: 15px;
             padding-top: 60px;
             padding-bottom: 60px;
-             background-color: #FFFDEE;
+            background-color: #FFFDEE;
 }
 @media screen and (min-width:1280px) {
 .modal{
@@ -446,13 +446,9 @@ z-index: 1;
     flex-direction: column;
     
 }
-<<<<<<< HEAD
 
 .input-style::placeholder{
     font-family: 'Times New Roman';
-=======
-.form-field input ::placeholder{
->>>>>>> 7030b730ee4bda22b7eae0dae854a7038c2305fc
     font-weight: 700;
         font-size: 24px;
         line-height: 1.16;

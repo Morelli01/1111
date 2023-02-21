@@ -9,7 +9,7 @@
     
     
     <script type="module" crossorigin src="/1111/assets/main-03f5ebd9.js"></script>
-    <link rel="stylesheet" href="/1111/assets/main-6a9d7c69.css">
+    <link rel="stylesheet" href="/1111/assets/main-e93f399d.css">
     <link rel="stylesheet" href="/1111/assets/reset-0a918886.css">
   </head>
   <body>
@@ -1136,19 +1136,60 @@
         <div class="menu-btn-position">
             <button type="button" class="desk-booking btn-hover btn-focus" data-modal-open>Забронювати столик</button>
         </div>
-    
-        <!-- modal-window -->
-    <!-- <div class="backdrop" data-modal>
-        <div class="modal-booking-desk">
-            <button type="button" class="close-modal-btn" data-modal-close>
-                <svg class="close-modal-btn-icon">
-                    <use href="../img/sprite.svg#icon-x" width="24" height="24"></use>
-                </svg>
-            </button>
-        </div>
-    </div> -->
-</div>
+    </div>
 </section>
+
+        <!-- modal-window -->
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal-booking-desk">
+                <button type="button" class="close-modal-btn" data-modal-close>
+                    <svg class="close-modal-btn-icon">
+                        <use href="../img/sprite.svg#icon-x"></use>
+                    </svg>
+                </button>
+                <h2 class="desk-modal-tittle">ЗАБРОНЮВАТИ СТОЛИК</h2>
+                <form class="desk-modal-form">                    
+                    <label class="desk-modal-field">
+                        <input type="text" name="user-name" class="desk-modal-input"
+                        pattern="^[a-zA-Zа-яА-ЯіІїЇ]{1-50}$" 
+                        title="Ваше ім’я"
+                        placeholder="Ваше ім'я">
+                        <span class="desk-modal-input-desc">На кого забронювати столик?</span>
+                    </label> 
+                    <label class="desk-modal-field">
+                        <input type="tel" name="user-phone" class="desk-modal-input" 
+                        pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                        tittle="Номер телефону"
+                        placeholder="+38(___)___-__-__">
+                        <span class="desk-modal-input-desc">Номер телефону</span>
+                    </label>
+                    <label class="desk-modal-field">
+                        <div class="desk-modal-input-wrapper1">
+                            <input type="text" name="user-phone" class="desk-modal-input" 
+                        placeholder="2">                        
+                            <svg class="desk-modal-errow-icon">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>                        
+                        </div>
+                        <span class="desk-modal-input-desc">Столик на яку кількість осіб?</span>
+                    </label>
+                    <label class="desk-modal-field">
+                        <div class="desk-modal-input-wrapper2">
+                            <input type="text" class="desk-modal-input" 
+                            pattern="^[a-zA-Zа-яА-ЯіІїЇ]{1-50}$"                         
+                            title="Сьогодні"
+                            placeholder="Сьогодні">
+                            <svg class="desk-modal-errow-icon">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>
+                        </div>
+                        <span class="desk-modal-input-desc">На яку дату бронювати?</span>
+                    </label>
+                    <button type="submit" class="desk-modal-btn-submit">ОФОРМИТИ БРОНЮВАННЯ</button> 
+               
+                </form>
+            </div>
+        </div>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">

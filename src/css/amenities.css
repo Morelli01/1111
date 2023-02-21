@@ -1,8 +1,3 @@
-.amenities-section {
-    background-color: #FFFDEE;
-
-}
-
 .container-amenities {
     width: 414px;
     padding: 32px 15px;
@@ -36,6 +31,11 @@
         width: 1280px;
 
     }   
+}
+
+.amenities-section {
+    background-color: #FFFDEE;
+
 }
 
 /* .amenities {} */
@@ -193,7 +193,7 @@
 
 
 .amenities-booking-svg {
-    fill: #FFFFFF;
+    fill: #000000;
 }
 
 .amenities-booking-svg:hover,

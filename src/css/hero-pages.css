@@ -4,8 +4,6 @@
   list-style: none;
   box-sizing: border-box;
 }
-body {
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -128,8 +126,6 @@ ol {
 .phone-header-svg-map {
   fill: #f3c653;
   margin-right: 8px;
-}
-.header-list-contact {
 }
 .geo-map-header {
   display: flex;

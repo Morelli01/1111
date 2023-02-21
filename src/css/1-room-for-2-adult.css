@@ -17,7 +17,7 @@
 
 @media (max-width: 413px) {
     .container-2-adult {
-        height: 1050px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -136,7 +136,7 @@
 
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-2-adult {
-        height: 1050px;
+        height: auto;
         background-color: #FFFDEE;
     }
 

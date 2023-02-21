@@ -1,3 +1,4 @@
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -12,6 +13,7 @@
   overflow: hidden;
 }
 .conteiner-rest{
+
   padding: 16px 16px 72px 15px;
   max-width: 414px;
   margin: 0 auto;
@@ -124,10 +126,9 @@
   fill: #000000;
 }
 .icon-fill:hover,
-.icon-fill:focus{
-  fill: #F3C653;
+.icon-fill:focus {
+  fill: #f3c653;
 }
-
 
 @media screen and (min-width: 1024px) {
   .conteiner-rest {
@@ -136,7 +137,7 @@
     padding-top: 0px;
     padding-bottom: 96px;
   }
-  .rest{
+  .rest {
     overflow: visible;
   }
   .rest-img {
@@ -183,7 +184,6 @@
   .rest-imge {
     width: 194px;
     height: 194px;
-    
   }
   .conteiner-foto {
     justify-content: flex-end;
@@ -203,7 +203,7 @@
     color: #c79002;
   }
   .rest-svg {
-    right: 95px;
+    right: 65px;
     bottom: 40px;
   }
 }
@@ -213,9 +213,7 @@
     max-width: 1110px;
   }
   .conteiner-foto {
-   
     margin-top: -35px;
-    
   }
   .rest-img {
     width: 460px;
@@ -241,5 +239,9 @@
   .rest-imge {
     width: 254px;
     height: 254px;
+  }
+  .rest-svg {
+    right: 95px;
+    bottom: 40px;
   }
 }

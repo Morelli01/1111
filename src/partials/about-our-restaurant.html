@@ -1,10 +1,11 @@
 <!-- About our restaurant -->
 <section class="rest">
-  <div class="conteiner">
+  <div class="conteiner-rest">
     <div class="rest-page">
       <div class="rest-one">
         <p class="rest-pretitle">Amet minim mollit non</p>
         <a href="#" class="rest-title">MIMIHO</a>
+        <h1  class="visually-hidden">MIMIHO</h1>
         <p class="rest-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -17,21 +18,21 @@
           ./img/rest/interior.jpg 1x, 
           ./img/rest/interior@2x.jpg 2x"
           media="(min-width:1200px)"
-        />
+        >
         <source
           srcset="
             ./img/rest/interior-tab.jpg    1x,
             ./img/rest/interior-tab@2x.jpg 2x
           "
           media="(min-width: 768px)"
-        />
+        >
         <source
           srcset="
             ./img/rest/interior-mob.jpg    1x,
             ./img/rest/interior-mob@2x.jpg 2x
           "
           media="(min-width: 320px)"
-        />
+        >
         <img
           src="./img/rest/interior.jpg"
           alt="rest"
@@ -40,7 +41,7 @@
           class="rest-img"
         />
       </picture>
-    </div>
+    
     <div class="rest-two">
       <picture>
         <source
@@ -49,21 +50,21 @@
             ./img/rest/oruri-jacome@2x.jpg 2x
           "
           media="(min-width:1200px)"
-        />
+        >
         <source
           srcset="
             ./img/rest/oruri-jacome-tab.jpg    1x,
             ./img/rest/oruri-jacome-tab@2x.jpg 2x
           "
           media="(min-width: 768px)"
-        />
-        <sourceo
+        >
+        <source
           srcset="
             ./img/rest/oruri-jacome-mob.jpg    1x,
             ./img/rest/oruri-jacome-mob@2x.jpg 2x
           "
           media="(min-width: 320px)"
-        />
+        >
         <img
           src="./img/rest/oruri-jacome.jpg"
           alt="rest"
@@ -78,6 +79,7 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
+  </div>
     <div class="conteiner-foto">
       <img
         src="./img/rest/helena.jpg"
@@ -97,5 +99,18 @@
         class="rest-imge"
       />
     </div>
+    </div>
+     <div class="rest-svg">
+          <button type="button" class="svg-btn">
+            <svg class="icon-fill" width="35" height="17">
+              <use href="./img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <button type="button" class="svg-btn">
+            <svg class="icon-fill" width="30" height="17">
+              <use href="./img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
   </div>
 </section>

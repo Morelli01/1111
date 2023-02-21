@@ -135,6 +135,11 @@
     padding-top: 0px;
     padding-bottom: 96px;
   }
+  .rest {
+  
+  overflow: visible;
+  
+}
   .rest-img {
     width: 400px;
     height: 524px;

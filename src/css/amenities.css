@@ -148,7 +148,6 @@
 @media screen and (min-width: 1024px)  {
     .amenities-booking {
         align-items: flex-end;
-        padding-right: 47px;
     }
 }
 

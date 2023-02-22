@@ -421,6 +421,10 @@
     -moz-appearance: none;
 }
 
+.amenities-select-form {
+    fill: #C79002;
+    position: absolute;
+}
 /* .amenities-select-form {
     fill: #C79002;
     background-color: transparent;

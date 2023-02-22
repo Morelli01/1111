@@ -9,19 +9,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .container-3-adult {
     margin-left: auto;
     margin-right: auto;
 }
+
 .adult-3-svg-btt svg:hover,
 .adult-3-svg-btt svg:focus {
-fill: #F3C653;
+    fill: #F3C653;
 }
 
 @media (max-width: 413px) {
     .section-3-adult {
         min-width: 375px;
-        height: 1050px;
     }
 
     .container-3-adult {
@@ -31,32 +32,25 @@ fill: #F3C653;
         position: relative;
         padding: 32px 15px;
     }
+
     .container-top {
-        position: absolute;
-        top: 0;
-        left: 0;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .bedroom-img-3-adult {
-        width: 244px;
-        height: 322px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-                }
     .text-container-3 {
         margin-top: 12px;
         width: 258px;
         height: 76px;
         margin-left: 83px;
     }
+
     .mimino-container {
         justify-content: flex-end;
         display: flex;
         width: 100%;
     }
+
     .headline-3-mimino {
         font-family: 'Film P3';
         font-weight: 700;
@@ -65,6 +59,7 @@ fill: #F3C653;
         color: #494848;
         letter-spacing: 0.3em;
     }
+
     .text-3-adult {
         color: #7A7A7A;
         font-family: "Montserrat", sans-serif;
@@ -73,6 +68,7 @@ fill: #F3C653;
         line-height: 14.63px;
         letter-spacing: 0.02em;
     }
+
     .headlines-number-3 {
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
@@ -81,6 +77,7 @@ fill: #F3C653;
         margin-top: 32px;
         text-align: end;
     }
+
     .headline-3-adult {
         font-family: 'Times New Roman', Times, serif;
         color: #B4B4B4;
@@ -91,6 +88,7 @@ fill: #F3C653;
         margin-left: auto;
         text-align: end;
     }
+
     .item-btt-3-adult {
         width: 236px;
         height: 48px;
@@ -101,11 +99,13 @@ fill: #F3C653;
         font-weight: 700;
         border: 2px solid #FFFFFF;
     }
+
     .item-btt-3-adult:focus,
     .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
+
     .btt-3-adult {
         display: flex;
         flex-direction: column;
@@ -120,7 +120,14 @@ fill: #F3C653;
         overflow: hidden;
     }
 
-
+    .bedroom-img-3-adult {
+        width: 244px;
+        height: 322px;
+        margin-right: auto;
+        margin-left: 0;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
 
     .img-cup-3-adult {
         width: 194px;
@@ -166,6 +173,7 @@ fill: #F3C653;
         width: 414px;
         padding: 32px 15px;
     }
+
     .container-top {
         display: flex;
         flex-direction: column-reverse;
@@ -178,6 +186,7 @@ fill: #F3C653;
         margin-left: auto;
         margin-right: 59px;
     }
+
     .mimino-container {
         justify-content: flex-end;
         display: flex;
@@ -299,25 +308,23 @@ fill: #F3C653;
     }
 
     .container-3-adult {
-        width: auto;
+        width: 1024px;
         position: relative;
         padding-top: 62px;
         padding-left: 47px;
-        padding-right: 47px
+        padding-right: 47px;
     }
+
     .container-top {
-        position: absolute;
-        right: 0;
-        top: 47px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
     }
 
     .text-container-3 {
         margin-left: auto;
-        margin-right: 30px;
-        width: 439px;
+        margin-right: 45px;
+        width: 330px;
         height: 80px;
     }
 
@@ -329,10 +336,11 @@ fill: #F3C653;
         letter-spacing: 0.02em;
         color: rgb(122, 122, 122);
     }
+
     .mimino-container {
-    width: 202px;
-    height: 69px;
-    margin-left: auto;
+        width: 202px;
+        height: 69px;
+        margin-left: auto;
     }
 
     .headline-3-mimino {
@@ -353,7 +361,7 @@ fill: #F3C653;
         margin-top: 62px;
         margin-bottom: 16px;
         margin-left: auto;
-        margin-right: 95px;
+        margin-right: 0;
         text-align: end;
     }
 
@@ -367,9 +375,9 @@ fill: #F3C653;
     }
 
     .flex-3-adult {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
     .item-btt-3-adult {
@@ -407,10 +415,8 @@ fill: #F3C653;
     .bedroom-img-3-adult {
         width: 400px;
         height: 524px;
-        margin-left: 0;
-        margin-top: -46%;
-        z-index: 1;
-        
+        margin-left: 90px;
+        margin-top: -42%;
     }
 
     .img-cup-3-adult {
@@ -431,9 +437,9 @@ fill: #F3C653;
     }
 
     .adult-3-svg {
-    position: absolute;
-    left: -10px;
-    bottom: -70px;
+        position: absolute;
+        left: -10px;
+        bottom: -70px;
     }
 
     .adult-3-svg-btt {
@@ -463,138 +469,138 @@ fill: #F3C653;
         height: 100%;
     }
 
-        .container-top {
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: column-reverse;
-        }
-    
-        .text-container-3 {
-            margin-left: 736px;
-            width: 330px;
-            height: 83px;
-        }
-    
-        .text-3-adult {
-            font-family: Montserrat;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19.5px;
-            letter-spacing: 0.02em;
-            color: rgb(122, 122, 122);
-        }
-    
-        .mimino-container {
-            width: 202px;
-            height: 69px;
-            margin-left: auto;
-        }
-    
-        .headline-3-mimino {
-            color: #494848;
-            font-family: 'Film P3';
-            font-weight: 700;
-            font-size: 64px;
-            line-height: 67px;
-            letter-spacing: 0.3em;
-        }
-    
-        .headlines-number-3 {
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 34.5px;
-            letter-spacing: 0.05em;
-            margin-top: 62px;
-            margin-bottom: 16px;
-            text-align: end;
-        }
-    
-        .headline-3-adult {
-            font-family: 'Times New Roman', Times, serif;
-            color: #B4B4B4;
-            font-size: 32px;
-            line-height: 36.8px;
-            margin-bottom: 4px;
-            text-align: end;
-        }
-    
-        .flex-3-adult {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-        }
-    
-        .item-btt-3-adult {
-            width: 236px;
-            height: 48px;
-            border-radius: 25px;
-            background-color: #000000;
-            color: #F3C653;
-            font-family: "Montserrat", sans-serif;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.2em;
-            border: 2px solid #FFFFFF;
-        }
-    
-        .item-btt-3-adult:not(:last-child) {
-            margin-bottom: 16px;
-        }
-    
-        .item-btt-3-adult:focus,
-        .item-btt-3-adult:hover {
-            background-color: #FFFFFF;
-            border: 2px solid #F3C653;
-        }
-    
-        .btt-3-adult {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 72px;
-            margin-right: 266px;
-        }
-    
-        .bedroom-img-3-adult {
-            width: 460px;
-            height: 574px;
-            margin-left: 85px;
-            margin-top: -37%;
-        }
-    
-        .img-cup-3-adult {
-            width: 254px;
-            height: 254px;
-            margin-left: 40px;
-        }
-    
-        .bath-3-adult {
-            width: 254px;
-            height: 254px;
-        }
-    
-        .slaider-3-adult {
-            position: relative;
-            margin-top: 48px;
-            display: flex;
-        }
-    
-        .adult-3-svg {
-            position: absolute;
-            left: -10px;
-            bottom: -70px;
-        }
-    
-        .adult-3-svg-btt {
-            background-color: #F0ECD6;
-            border: 1px solid #F0ECD6;
-            width: 40px;
-            height: 40px;
-        }
-    
-        .adult-3-svg-btt:not(:last-child) {
-            margin-right: 32px;
-        }
-        }
+    .container-top {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+
+    .text-container-3 {
+        margin-left: 736px;
+        width: 330px;
+        height: 83px;
+    }
+
+    .text-3-adult {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.5px;
+        letter-spacing: 0.02em;
+        color: rgb(122, 122, 122);
+    }
+
+    .mimino-container {
+        width: 202px;
+        height: 69px;
+        margin-left: auto;
+    }
+
+    .headline-3-mimino {
+        color: #494848;
+        font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 67px;
+        letter-spacing: 0.3em;
+    }
+
+    .headlines-number-3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34.5px;
+        letter-spacing: 0.05em;
+        margin-top: 62px;
+        margin-bottom: 16px;
+        text-align: end;
+    }
+
+    .headline-3-adult {
+        font-family: 'Times New Roman', Times, serif;
+        color: #B4B4B4;
+        font-size: 32px;
+        line-height: 36.8px;
+        margin-bottom: 4px;
+        text-align: end;
+    }
+
+    .flex-3-adult {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .item-btt-3-adult {
+        width: 236px;
+        height: 48px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #F3C653;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        border: 2px solid #FFFFFF;
+    }
+
+    .item-btt-3-adult:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .item-btt-3-adult:focus,
+    .item-btt-3-adult:hover {
+        background-color: #FFFFFF;
+        border: 2px solid #F3C653;
+    }
+
+    .btt-3-adult {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 72px;
+        margin-right: 266px;
+    }
+
+    .bedroom-img-3-adult {
+        width: 460px;
+        height: 574px;
+        margin-left: 85px;
+        margin-top: -37%;
+    }
+
+    .img-cup-3-adult {
+        width: 254px;
+        height: 254px;
+        margin-left: 40px;
+    }
+
+    .bath-3-adult {
+        width: 254px;
+        height: 254px;
+    }
+
+    .slaider-3-adult {
+        position: relative;
+        margin-top: 48px;
+        display: flex;
+    }
+
+    .adult-3-svg {
+        position: absolute;
+        left: -10px;
+        bottom: -70px;
+    }
+
+    .adult-3-svg-btt {
+        background-color: #F0ECD6;
+        border: 1px solid #F0ECD6;
+        width: 40px;
+        height: 40px;
+    }
+
+    .adult-3-svg-btt:not(:last-child) {
+        margin-right: 32px;
+    }
+}

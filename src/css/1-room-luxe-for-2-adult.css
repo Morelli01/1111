@@ -12,7 +12,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.svg-btt svg:hover,
+.svg-btt svg:focus {
+    fill: #F3C653;
+}
 @media (max-width: 413px) {
     .section-luxe {
         width: auto;

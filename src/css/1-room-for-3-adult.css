@@ -43,7 +43,7 @@ fill: #F3C653;
         justify-content: flex-end;
         display: flex;
         width: 100%;
-}
+    }
     .headline-3-mimino {
         font-family: 'Film P3';
         font-weight: 700;
@@ -52,7 +52,6 @@ fill: #F3C653;
         color: #494848;
         letter-spacing: 0.3em;
     }
-
     .text-3-adult {
         color: #7A7A7A;
         font-family: "Montserrat", sans-serif;
@@ -61,7 +60,6 @@ fill: #F3C653;
         line-height: 14.63px;
         letter-spacing: 0.02em;
     }
-
     .headlines-number-3 {
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
@@ -70,7 +68,6 @@ fill: #F3C653;
         margin-top: 32px;
         text-align: end;
     }
-
     .headline-3-adult {
         font-family: 'Times New Roman', Times, serif;
         color: #B4B4B4;
@@ -81,7 +78,6 @@ fill: #F3C653;
         margin-left: auto;
         text-align: end;
     }
-
     .item-btt-3-adult {
         width: 236px;
         height: 48px;
@@ -92,20 +88,17 @@ fill: #F3C653;
         font-weight: 700;
         border: 2px solid #FFFFFF;
     }
-
     .item-btt-3-adult:focus,
     .item-btt-3-adult:hover {
         background-color: #FFFFFF;
         border: 2px solid #F3C653;
     }
-
     .btt-3-adult {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 72px;
     }
-
 
     .slaider-3-adult {
         position: relative;

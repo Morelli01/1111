@@ -22,7 +22,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container-datail-rest {
+    .container-hot {
         max-width: 1173px;
 
     }
@@ -58,7 +58,7 @@ body {
     padding-top: 24px;
     padding-bottom: 40px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(./img/details-of-rest/bg-mob_414.jpg);
+        url(../img/details-of-our-hotel/bg-mob_414.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 40px;
@@ -72,7 +72,7 @@ body {
 (min-resolution: 2dppx) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(./img/details-of-rest/img/bg-mob_828.jpg);
+            url(../img/details-of-our-hotel/img/bg-mob_828.jpg);
     }
 }
 
@@ -80,14 +80,14 @@ body {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .det-hotel {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) url(./img/details-of-rest/bg-tablet_2048.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) url(../img/details-of-our-hotel/bg-tablet_2048.jpg);
     }
 }
 
 @media screen and (min-width:1024px) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-            url(./img/details-of-rest/bg-tablet_1024.jpg);
+            url(../img/details-of-our-hotel/bg-tablet_1024.jpg);
     }
 }
 
@@ -97,14 +97,14 @@ body {
 (min-resolution: 2dppx) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(./img/details-of-rest/bg-desk_2560.jpg);
+            url(../img/details-of-our-hotel/bg-desk_2560.jpg);
     }
 }
 
 @media screen and (min-width:1280px) {
     .det-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url(./img/details-of-rest/bg-desk_1280.jpg);
+            url(../img/details-of-our-hotel/bg-desk_1280.jpg);
     }
 }
 
@@ -202,10 +202,7 @@ body {
     }
 }
 
-.wrap-text {
-    margin-right: 129px;
-    text-align: right;
-}
+
 
 .details-of-hot-list {
     margin-right: 25px;
@@ -301,7 +298,7 @@ body {
 .det-hotel-icon {
     fill: currentColor;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .det-hotel-button:hover .det-hotel-icon,
@@ -320,6 +317,7 @@ body {
     .details-of-hot-list {
         margin-bottom: 0;
         margin-right: 0;
+        gap: 34px;
     }
 
     .det-hotel {

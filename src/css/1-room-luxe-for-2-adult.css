@@ -3,23 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .section-luxe {
     background-color: #FFFDEE;
     margin-left: auto;
     margin-right: auto;
 }
+
 .container-luxe {
     margin-left: auto;
     margin-right: auto;
 }
 
-@media (max-width: 413px) {
-    .section-luxe {
-        max-width: 414px;
-    }
+.svg-btt svg:hover,
+.svg-btt svg:focus {
+    fill: #F3C653;
+}
 
+@media (max-width: 413px) {
     .container-luxe {
-        height: 1050px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -34,7 +37,7 @@
 
     .headline {
         margin-left: 0;
-        margin-right: auto;
+        margin-right: 0;
         font-family: 'Film P3';
         font-weight: 700;
         font-size: 40px;
@@ -120,8 +123,8 @@
 
     .luxe-svg {
         position: absolute;
-        left: 0;
-        bottom: -59px;
+        left: 5px;
+        top: 220px;
     }
 
     .svg-btt {
@@ -138,8 +141,7 @@
 
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-luxe {
-        min-width: 414px;
-        height: 1050px;
+        height: auto;
         background-color: #FFFDEE;
     }
 
@@ -159,7 +161,7 @@
 
     .headline {
         margin-left: 0;
-        margin-right: auto;
+        margin-right: 0;
         font-family: 'Film P3';
         font-weight: 700;
         font-size: 40px;
@@ -243,8 +245,8 @@
 
     .luxe-svg {
         position: absolute;
-        left: 0;
-        bottom: -59px;
+        left: 5px;
+        top: 220px;
     }
 
     .svg-btt {
@@ -261,18 +263,16 @@
 
 @media (min-width: 1024px) and (max-width:1279px) {
     .section-luxe {
-        min-width: 1024px;
         height: 838px;
-        padding-top: 62px;
-        padding-left: 47px;
-        padding-right: 47px;
         background-color: #FFFDEE;
     }
 
     .container-luxe {
-        width: auto;
+        width: 1024px;
         position: relative;
-        padding: 0;
+        padding-top: 62px;
+        padding-left: 47px;
+        padding-right: 47px;
     }
 
     .text-container {
@@ -291,7 +291,7 @@
 
     .headline {
         margin-left: 0;
-        margin-right: auto;
+        margin-right: 0;
         color: #494848;
         font-family: 'Film P3';
         font-weight: 700;
@@ -378,9 +378,10 @@
     }
 
     .luxe-svg {
+        display: flex;
         position: absolute;
-        right: 0;
-        bottom: -70px;
+        left: 75%;
+        top: 110%;
     }
 
     .svg-btt {
@@ -397,20 +398,17 @@
 
 @media (min-width: 1280px) {
     .section-luxe {
-        min-width: 1364px;
         height: 956px;
-        padding-top: 72px;
-        padding-left: 85px;
-        padding-right: 85px;
         background-color: #FFFDEE;
     }
 
     .container-luxe {
-        width: 1280px;
         position: relative;
-        width: 1280px;
+        max-width: 1280px;
         height: 100%;
-        padding: 0;
+        padding-top: 72px;
+        padding-left: 85px;
+        padding-right: 85px;
     }
 
     .text-container {
@@ -430,7 +428,7 @@
 
     .headline {
         margin-left: 0;
-        margin-right: auto;
+        margin-right: 0;
         color: #494848;
         font-family: 'Film P3';
         font-weight: 700;
@@ -519,9 +517,10 @@
     }
 
     .luxe-svg {
+        display: flex;
         position: absolute;
-        right: 0;
-        bottom: -120px;
+        left: 80%;
+        top: 110%;
     }
 
     .svg-btt {

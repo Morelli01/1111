@@ -15,13 +15,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+.adult-3-svg-btt svg:hover,
+.adult-3-svg-btt svg:focus {
+fill: #F3C653;
+}
 
 @media (max-width: 413px) {
-    .section-3-adult {
-
-    }
     .container-3-adult {
-        height: 1050px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -119,7 +120,8 @@
         width: 194px;
         height: 194px;
         margin-left: 15px;
-        margin-right: auto;
+        background-image: url(../img/cup-desktop.png);
+        overflow: hidden;
     }
 
     .bath-3-adult {
@@ -148,7 +150,7 @@
 
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-3-adult {
-        height: 1050px;
+        height: auto;
         background-color: #F0ECD6;
         overflow: visible;
     }
@@ -253,7 +255,10 @@
         width: 194px;
         height: 194px;
         margin-left: 15px;
+        background-image: url(../img/cup-desktop.png);
+        overflow: hidden;
     }
+
 
     .bath-3-adult {
         width: 194px;
@@ -280,7 +285,7 @@
 
 @media (min-width: 1024px) and (max-width:1279px) {
     .section-3-adult {
-        max-width: 1280px;
+        min-width: auto;
         height: 838px;
         padding-top: 62px;
         padding-left: 47px;
@@ -396,6 +401,8 @@
         width: 194px;
         height: 194px;
         margin-left: 40px;
+        background-image: url(../img/cup-desktop.png);
+        background-size: cover;
     }
 
     .bath-3-adult {
@@ -438,7 +445,7 @@
 
     .container-3-adult {
         position: relative;
-        width: auto;
+        width: 1280px;
         height: 100%;
         padding: 0;
     }
@@ -540,6 +547,8 @@
             width: 254px;
             height: 254px;
             margin-left: 40px;
+            background-image: url(../img/cup-desktop.png);
+            background-size: cover;
         }
     
         .bath-3-adult {

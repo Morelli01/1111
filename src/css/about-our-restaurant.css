@@ -103,6 +103,7 @@
   margin-left: 84px;
 
 }
+
 .svg-btn {
   display: flex;
   align-items: center;
@@ -127,6 +128,7 @@
 .icon-fill:focus{
   fill: #F3C653;
 }
+
 
 @media screen and (min-width: 1024px) {
   .conteiner-rest {
@@ -202,7 +204,9 @@
     color: #c79002;
   }
   .rest-svg {
+
     right: 10px;
+
     bottom: 40px;
   }
 }
@@ -242,10 +246,12 @@
     height: 254px;
   }
 
+
   
   .rest-svg {
     right: 10px;
     bottom: 40px;
   }
+
 
 }

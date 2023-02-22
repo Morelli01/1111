@@ -1,3 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style-type: none;
+}
+
+.link {
+  list-style: none;
+}
+
+@font-face {
+  font-family: Film p3;
+  src: url(../fonts/FilmP3Bold.woff), url(../fonts/FilmP3Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 .contact-number {
   display: none;
 }
@@ -343,15 +403,12 @@
         rgba(0, 0, 0, 0) 26%
       ),
       url(./img/hotelx2retina.jpg);
-      height: 76px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .container {
     max-width: 1024px;
     margin: 0 auto;
-    padding-left: 47px;
-    padding-right: 47px;
   }
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),

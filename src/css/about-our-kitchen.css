@@ -123,10 +123,6 @@
 .icon-fil {
   fill: #000000;
 }
-.icon-fil:hover,
-.icon-fil:focus{
-  fill: #F3C653;
-}
 
 @media screen and (min-width: 1024px) {
   .conteiner-kitchen{
@@ -203,7 +199,9 @@
       }
 .kitchen-svg {
  
+
     right: 10px;
+
     bottom: 40px;
  
 }
@@ -241,10 +239,13 @@
     width: 254px;
     height: 254px;
   }
+
   .kitchen-svg {
  
     right: 10px;
     bottom: 40px;
  
 }
+
+
 }

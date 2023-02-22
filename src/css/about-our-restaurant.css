@@ -15,6 +15,7 @@
   padding: 16px 16px 72px 15px;
   max-width: 414px;
   margin: 0 auto;
+  position: relative;
 }
 .rest {
   background: #fffdee;
@@ -243,7 +244,7 @@
 
   
   .rest-svg {
-    right: 95px;
+    right: 10px;
     bottom: 40px;
   }
 

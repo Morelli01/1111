@@ -15,12 +15,15 @@
   padding: 16px 16px 72px 15px;
   max-width: 414px;
   margin: 0 auto;
+  position: relative;
 }
 .hotel {
   background: #fffdee;
   position: relative;
+
   background: #FFFDEE;
   padding-bottom: 72px;
+
   overflow: hidden;
 }
 .hotel-page {
@@ -206,7 +209,7 @@
     color: #c79002;
   }
   .hotel-svg {
-    left: 95px;
+    left: 40px;
     bottom: 40px;
   }
 }
@@ -242,9 +245,5 @@
   .hotel-imge {
     width: 254px;
     height: 254px;
-  }
-  .hotel-svg {
-    left: 480px;
-    bottom: 40px;
   }
 }

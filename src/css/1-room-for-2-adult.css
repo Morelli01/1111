@@ -14,6 +14,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+.svg-btt-2-adult svg:hover,
+.svg-btt-2-adult svg:focus {
+    fill: #F3C653;
+}
 
 @media (max-width: 413px) {
     .container-2-adult {

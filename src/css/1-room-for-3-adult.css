@@ -21,7 +21,9 @@ fill: #F3C653;
 @media (max-width: 413px) {
     .section-3-adult {
         min-width: 375px;
+        height: 1050px;
     }
+
     .container-3-adult {
         height: auto;
         margin-left: auto;
@@ -30,9 +32,20 @@ fill: #F3C653;
         padding: 32px 15px;
     }
     .container-top {
+        position: absolute;
+        top: 0;
+        left: 0;
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .bedroom-img-3-adult {
+        width: 244px;
+        height: 322px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+                }
     .text-container-3 {
         margin-top: 12px;
         width: 258px;
@@ -107,14 +120,7 @@ fill: #F3C653;
         overflow: hidden;
     }
 
-    .bedroom-img-3-adult {
-        width: 244px;
-        height: 322px;
-        margin-right: auto;
-        margin-left: 0;
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
+
 
     .img-cup-3-adult {
         width: 194px;
@@ -293,13 +299,16 @@ fill: #F3C653;
     }
 
     .container-3-adult {
-        width: 1024px;
+        width: auto;
         position: relative;
         padding-top: 62px;
         padding-left: 47px;
-        padding-right: 47px;
+        padding-right: 47px
     }
     .container-top {
+        position: absolute;
+        right: 0;
+        top: 47px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column-reverse;
@@ -307,8 +316,8 @@ fill: #F3C653;
 
     .text-container-3 {
         margin-left: auto;
-        margin-right: 45px;
-        width: 330px;
+        margin-right: 30px;
+        width: 439px;
         height: 80px;
     }
 
@@ -344,7 +353,7 @@ fill: #F3C653;
         margin-top: 62px;
         margin-bottom: 16px;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: 95px;
         text-align: end;
     }
 
@@ -398,8 +407,10 @@ fill: #F3C653;
     .bedroom-img-3-adult {
         width: 400px;
         height: 524px;
-        margin-left: 90px;
-        margin-top: -42%;
+        margin-left: 0;
+        margin-top: -46%;
+        z-index: 1;
+        
     }
 
     .img-cup-3-adult {

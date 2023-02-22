@@ -264,16 +264,15 @@
 @media (min-width: 1024px) and (max-width:1279px) {
     .section-luxe {
         height: 838px;
-        padding-top: 62px;
-        padding-left: 47px;
-        padding-right: 47px;
         background-color: #FFFDEE;
     }
 
     .container-luxe {
         width: 1024px;
         position: relative;
-        padding: 0;
+        padding-top: 62px;
+        padding-left: 47px;
+        padding-right: 47px;
     }
 
     .text-container {
@@ -400,9 +399,6 @@
 @media (min-width: 1280px) {
     .section-luxe {
         height: 956px;
-        padding-top: 72px;
-        padding-left: 85px;
-        padding-right: 85px;
         background-color: #FFFDEE;
     }
 
@@ -410,7 +406,9 @@
         position: relative;
         max-width: 1280px;
         height: 100%;
-        padding: 0;
+        padding-top: 72px;
+        padding-left: 85px;
+        padding-right: 85px;
     }
 
     .text-container {

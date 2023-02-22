@@ -58,7 +58,7 @@
                     </li>
                 </ul>
                 <div class="amenities-booking">
-                    <button data-modal-open type="button" class="amenities-booking-button">ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <button [data-modal-open] type="button" class="amenities-booking-button">ОФОРМИТИ БРОНЮВАННЯ</button>
                     <div class="amenities-booking-link">
                         <a href="./hotel.html" class="amenities-hotel-link">Повернутися до перегляду номерів
                             <svg class="amenities-booking-svg" width="30" height="17">
@@ -70,9 +70,9 @@
             </div>
         </div>
     
-        <div class="amenities-backdrop is-hidden" data-modal>
+        <div class="amenities-backdrop is-hidden" [data-modal] >
             <div class="amenities-modal">
-                <button class="amenities-modal-close" data-modal-close>
+                <button class="amenities-modal-close" [data-modal-close]>
                     <svg class="amenities-icon" width="24" height="24">
                         <use href="./img/sprite.svg#icon-close"></use>
                     </svg>
@@ -112,7 +112,7 @@
                             <option value="Day-after">Післязавтра</option>
                         </select>
                         <svg class="amenities-select-form-svg" width="24" height="24">
-                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>  
                         </svg>
                             <span class="amenities-span primary">Дата заїзду</span>
                             </label>
@@ -122,7 +122,8 @@
                             <option value="Today" selected>Сьогодні</option>
                             <option value="Tomorrow">Завтра</option>
                             <option value="Day-after">Післязавтра</option>
-                        </select><svg class="amenities-select-form-svg" width="24" height="24">
+                        </select>
+                        <svg class="amenities-select-form-svg" width="24" height="24">
                             <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
                         </svg>
                             <span class="amenities-span primary">Дата виїзду</span>

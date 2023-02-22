@@ -421,9 +421,19 @@
     -moz-appearance: none;
 }
 
-.amenities-select-form {
+.amenities-select-form-svg {
     fill: #C79002;
     position: absolute;
+    display: flex;
+    right: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .amenities-select-form-svg {
+        right: 70px;
+    }
+    
 }
 /* .amenities-select-form {
     fill: #C79002;

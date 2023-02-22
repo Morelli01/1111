@@ -68,17 +68,16 @@
                     </div>
                 </div>
             </div>
-        </div>
     
-        <div class="amenities-backdrop is-hidden" [data-modal] >
+        <div class="amenities-backdrop is-hidden" data-modal>
             <div class="amenities-modal">
-                <button class="amenities-modal-close" [data-modal-close]>
+                <button class="amenities-modal-close" data-modal-close>
                     <svg class="amenities-icon" width="24" height="24">
-                        <use href="./img/sprite.svg#icon-close"></use>
+                        <use href="./img/sprite.svg#icon-x"></use>
                     </svg>
                 </button>
                     <p class="amenities-modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
-                <form class="amenities-form">
+                    <form class="amenities-form">
                         <label class="amenities-modal-form-label">
                         <input type="text" class="amenities-modal-input" name="name" id="name" placeholder="Ваше ім’я" required 
                         pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$">
@@ -98,7 +97,7 @@
                                 <option value="Dooble-luxe-room">Двомісний люкс</option>
                                 <option value="Triple-room">Трьохмісний номер</option>
                                 </select>
-                                <svg class="amenities-select-form-svg" width="24" height="24">
+                                <svg class="amenities-select-svg" width="24" height="24">
                                     <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
                                 </svg>
                                 <span class="amenities-span">Категорія номеру</span>
@@ -111,8 +110,8 @@
                             <option value="Tomorrow">Завтра</option>
                             <option value="Day-after">Післязавтра</option>
                         </select>
-                        <svg class="amenities-select-form-svg" width="24" height="24">
-                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>  
+                        <svg class="amenities-select-svg" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
                         </svg>
                             <span class="amenities-span primary">Дата заїзду</span>
                             </label>
@@ -123,12 +122,12 @@
                             <option value="Tomorrow">Завтра</option>
                             <option value="Day-after">Післязавтра</option>
                         </select>
-                        <svg class="amenities-select-form-svg" width="24" height="24">
+                        <svg class="amenities-select-svg" width="24" height="24">
                             <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
                         </svg>
                             <span class="amenities-span primary">Дата виїзду</span>
                             </label>
-
+                            
                     <div class="amenities-submit">  
                     <button type="submit" class="amenities-button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
                     <a href="./amenities.html"></a>

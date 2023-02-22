@@ -20,50 +20,6 @@
     fill: #F3C653;
 }
 
- .luxe-btt {
-     width: 236px;
-     height: 48px;
-     font-size: 16px;
-     border-radius: 25px;
-     background-color: #000000;
-     color: #F3C653;
-     font-family: "Montserrat", sans-serif;
-     font-weight: 700;
-     border: 2px solid #FFFFFF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
-
- .luxe-btt:focus,
- .luxe-btt:hover,
- .for-two:hover,
- .for-two:focus {
-     background-color: #FFFFFF;
-     border: 2px solid #F3C653;
- }
-
-.for-two {
-    display: block;
-    padding: 12px 35px;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 236px;
-
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.25;
-
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    background-color: #000000;
-
-    border: 2px solid #FFFDEE;
-    border-radius: 25px;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 @media (max-width: 413px) {
     .container-luxe {
         height: auto;
@@ -115,7 +71,22 @@
         margin-bottom: 8px;
     }
 
-   
+    .luxe-btt {
+        width: 236px;
+        height: 48px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #F3C653;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        border: 2px solid #FFFFFF;
+    }
+
+    .luxe-btt:focus,
+    .luxe-btt:hover {
+        background-color: #FFFFFF;
+        border: 2px solid #F3C653;
+    }
 
     .btt {
         display: flex;

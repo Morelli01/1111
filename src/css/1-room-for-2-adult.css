@@ -14,10 +14,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+.svg-btt-2-adult svg:hover,
+.svg-btt-2-adult svg:focus {
+    fill: #F3C653;
+}
 
 @media (max-width: 413px) {
     .container-2-adult {
-        height: 1050px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -96,6 +100,8 @@
     }
 
     .bedroom-2-adult {
+        width: 244px;
+        height: 322px;
         margin-right: 0;
         margin-left: auto;
         margin-top: 32px;
@@ -107,7 +113,6 @@
         height: 194px;
         margin-left: 15px;
         margin-right: auto;
-
     }
 
     .bath-2-adult {
@@ -136,7 +141,7 @@
 
 @media (min-width: 414px) and (max-width: 1023px) {
     .section-2-adult {
-        height: 1050px;
+        height: auto;
         background-color: #FFFDEE;
     }
 
@@ -220,6 +225,8 @@
     }
 
     .bedroom-2-adult {
+        width: 244px;
+        height: 322px;
         margin-right: 0;
         margin-left: auto;
         margin-top: 32px;
@@ -259,16 +266,15 @@
 @media (min-width: 1024px) and (max-width:1279px) {
     .section-2-adult {
         height: 838px;
-        padding-top: 62px;
-        padding-left: 47px;
-        padding-right: 47px;
         background-color: #FFFDEE;
     }
 
     .container-2-adult {
         width: 1024px;
         position: relative;
-        padding: 0;
+        padding-top: 62px;
+        padding-left: 47px;
+        padding-right: 47px;
     }
 
     .text-container-2-adult {
@@ -395,9 +401,6 @@
 @media (min-width: 1280px) {
     .section-2-adult {
         height: 956px;
-        padding-top: 72px;
-        padding-left: 85px;
-        padding-right: 85px;
         background-color: #FFFDEE;
     }
 
@@ -405,7 +408,9 @@
         position: relative;
         max-width: 1280px;
         height: 100%;
-        padding: 0;
+        padding-top: 72px;
+        padding-left: 85px;
+        padding-right: 85px;
     }
 
     .text-container-2-adult {

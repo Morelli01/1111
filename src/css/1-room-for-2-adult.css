@@ -100,6 +100,8 @@
     }
 
     .bedroom-2-adult {
+        width: 244px;
+        height: 322px;
         margin-right: 0;
         margin-left: auto;
         margin-top: 32px;
@@ -111,7 +113,6 @@
         height: 194px;
         margin-left: 15px;
         margin-right: auto;
-
     }
 
     .bath-2-adult {
@@ -224,6 +225,8 @@
     }
 
     .bedroom-2-adult {
+        width: 244px;
+        height: 322px;
         margin-right: 0;
         margin-left: auto;
         margin-top: 32px;

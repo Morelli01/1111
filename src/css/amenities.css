@@ -218,7 +218,7 @@
     }
 }
 
-.backdrop {
+.amenities-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -229,7 +229,7 @@
     background-color:rgba(46, 47, 66, 0.4);
 }
 
-.backdrop.is-hidden {
+.amenities-backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;

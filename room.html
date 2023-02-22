@@ -237,18 +237,17 @@
                 </li>
             </ul>
 
-
-                    <div class="amenities-booking">
-                        <button amenities-data-modal-open type="button" class="amenities-booking-button">ОФОРМИТИ БРОНЮВАННЯ</button>
-                        <div class="amenities-booking-link">
-                            <a href="./hotel.html" class="amenities-hotel-link">Повернутися до перегляду номерів
-                                <svg class="amenities-booking-svg" width="30" height="17">
-                                    <use href="/1111/assets/sprite-2dcd9e42.svg#icon-arrow-right"></use>
-                            </svg>
-                        </a>
-                    </div>
+            <div class="amenities-booking">
+                <button amenities-modal-open type="button" class="amenities-booking-button">ОФОРМИТИ БРОНЮВАННЯ</button>
+                <div class="amenities-booking-link">
+                    <a href="./hotel.html" class="amenities-hotel-link">Повернутися до перегляду номерів
+                        <svg class="amenities-booking-svg" width="30" height="17">
+                            <use href="/1111/assets/sprite-2dcd9e42.svg#icon-arrow-right"></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
+        </div>
 
         <div class="amenities-backdrop is-hidden" amenities-data-modal>
             <div class="amenities-modal">
@@ -265,14 +264,12 @@
                         <span class="amenities-span">На кого забронювати номер?</span>
                     </label>
 
-                <label class="amenities-modal-form-label">
-
-                    <input type="text" class="amenities-modal-input" name="tel" id="tel"
-                        placeholder="+38(___) ___-__-__" required pattern="+38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                        title="xxx-xxx-xx-xx">
-
-                    <span class="amenities-span">Номер телефону</span>
-                </label>
+                    <label class="amenities-modal-form-label">
+                        <input type="text" class="amenities-modal-input" name="tel" id="tel"
+                            placeholder="+38 (___) ___-__-__" required pattern="+38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            title="xxx-xxx-xx-xx">
+                        <span class="amenities-span">Номер телефону</span>
+                    </label>
 
                     <div class="amenities-select-wrap">
                         <label class="amenities-modal-form-label">

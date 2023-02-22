@@ -199,7 +199,9 @@
       }
 .kitchen-svg {
  
+
     right: 10px;
+
     bottom: 40px;
  
 }
@@ -237,4 +239,13 @@
     width: 254px;
     height: 254px;
   }
+
+  .kitchen-svg {
+ 
+    right: 10px;
+    bottom: 40px;
+ 
+}
+
+
 }

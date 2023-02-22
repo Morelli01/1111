@@ -204,7 +204,9 @@
     color: #c79002;
   }
   .rest-svg {
+
     right: 10px;
+
     bottom: 40px;
   }
 }
@@ -243,4 +245,13 @@
     width: 254px;
     height: 254px;
   }
+
+
+  
+  .rest-svg {
+    right: 10px;
+    bottom: 40px;
+  }
+
+
 }

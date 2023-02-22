@@ -19,6 +19,9 @@ fill: #F3C653;
 }
 
 @media (max-width: 413px) {
+    .section-3-adult {
+        min-width: 375px;
+    }
     .container-3-adult {
         height: auto;
         margin-left: auto;
@@ -109,6 +112,7 @@ fill: #F3C653;
         position: relative;
         display: flex;
         margin-left: 100px;
+        overflow: hidden;
     }
 
     .bedroom-img-3-adult {
@@ -124,8 +128,6 @@ fill: #F3C653;
         width: 194px;
         height: 194px;
         margin-left: 15px;
-        background-image: url(../img/cup-desktop.png);
-        overflow: hidden;
     }
 
     .bath-3-adult {
@@ -265,8 +267,6 @@ fill: #F3C653;
         width: 194px;
         height: 194px;
         margin-left: 15px;
-        background-image: url(../img/cup-desktop.png);
-        overflow: hidden;
     }
 
 
@@ -414,8 +414,6 @@ fill: #F3C653;
         width: 194px;
         height: 194px;
         margin-left: 40px;
-        background-image: url(../img/cup-desktop.png);
-        background-size: cover;
     }
 
     .bath-3-adult {
@@ -567,8 +565,6 @@ fill: #F3C653;
             width: 254px;
             height: 254px;
             margin-left: 40px;
-            background-image: url(../img/cup-desktop.png);
-            background-size: cover;
         }
     
         .bath-3-adult {

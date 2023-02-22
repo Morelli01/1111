@@ -26,8 +26,8 @@
     height: 240px;
 }
 
-.footer-left-box {
-}
+/* .footer-left-box {
+} */
 
 .footer-social-list {
     display: flex;
@@ -40,8 +40,8 @@
     gap: 85px;
 }
 
-.footer-social-item {
-}
+/* .footer-social-item {
+} */
 
 .footer-social-link {
     display: flex;
@@ -61,8 +61,8 @@
     margin-bottom: 33px;
 }
 
-.footer-site-nav-list {
-}
+/* .footer-site-nav-list {
+} */
 
 .footer-site-nav-item {
     /* display: flex;

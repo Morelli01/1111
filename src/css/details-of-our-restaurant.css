@@ -46,7 +46,7 @@ body {
 .details-rest {
     padding-top: 24px;
     padding-bottom: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./img/details-of-rest/bg-mobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/details-of-rest/bg-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

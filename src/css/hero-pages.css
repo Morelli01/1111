@@ -103,7 +103,7 @@
 }
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(./img/mobile-hompage.jpg);
+    url(../img/mobile-hompage.jpg);
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -212,7 +212,7 @@
 }
 .hero-rest {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(./img/mobile-rest.jpg);
+    url(../img/mobile-rest.jpg);
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -220,7 +220,7 @@
 }
 .hero-hotel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(./img/mobile-hotel.jpg);
+    url(../img/mobile-hotel.jpg);
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -259,7 +259,7 @@
       rgba(0, 0, 0, 0.2) 143px,
       rgba(0, 0, 0, 0) 26%
     ),
-    url(./img/mobile-hotel.jpg);
+    url(../img/mobile-hotel.jpg);
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -307,7 +307,7 @@
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/hompagex2renita.jpg);
+      url(../img/hompagex2renita.jpg);
       height: 740px;
   }
 }
@@ -317,7 +317,7 @@
   (min-resolution: 2dppx) {
   .hero-rest {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/retinax2rest.jpg);
+      url(../img/retinax2rest.jpg);
       height: 740px;
   }
 }
@@ -327,7 +327,7 @@
   (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/hotelx2retina.jpg);
+      url(../img/hotelx2retina.jpg);
       height: 765px;
   }
 }
@@ -342,7 +342,7 @@
         rgba(0, 0, 0, 0.2) 143px,
         rgba(0, 0, 0, 0) 26%
       ),
-      url(./img/hotelx2retina.jpg);
+      url(../img/hotelx2retina.jpg);
       height: 76px;
   }
 }
@@ -355,7 +355,7 @@
   }
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/tablet-hompage.jpg);
+      url(../img/tablet-hompage.jpg);
       height: 718px;
   }
   .header-link {
@@ -456,7 +456,7 @@
   }
   .hero-rest {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/tablet-rest.jpg);
+      url(../img/tablet-rest.jpg);
       height: 718px;
   }
   .hero-title-rest {
@@ -472,7 +472,7 @@
   }
   .hero-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/tablet-hotel.jpg);
+      url(../img/tablet-hotel.jpg);
       height: 718px;
   }
   .hero-title-hotel {
@@ -493,7 +493,7 @@
         rgba(0, 0, 0, 0.2) 143px,
         rgba(0, 0, 0, 0) 26%
       ),
-      url(./img/tablet-hotel.jpg);
+      url(../img/tablet-hotel.jpg);
       height: 718px;
   }
   .hero-title-nomer {
@@ -532,7 +532,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/hompagex2-tablet-retina.jpg);
+        url(../img/hompagex2-tablet-retina.jpg);
         height: 718px;
     }
   }
@@ -545,7 +545,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/retinax2tabletrest.jpg);
+        url(../img/retinax2tabletrest.jpg);
         height: 718px;
     }
   }
@@ -558,7 +558,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./img/hotel-tablet-retina.jpg);
+        url(../img/hotel-tablet-retina.jpg);
         height: 741px;
     }
   }
@@ -573,7 +573,7 @@
           rgba(0, 0, 0, 0.2) 143px,
           rgba(0, 0, 0, 0) 26%
         ),
-        url(./img/hotel-tablet-retina.jpg);
+        url(../img/hotel-tablet-retina.jpg);
         height: 741px;
     }
   }
@@ -587,7 +587,7 @@
   }
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/pkhompage.jpg);
+      url(../img/pkhompage.jpg);
       height: 720px;
   }
   .header-link {
@@ -701,7 +701,7 @@
   }
   .hero-rest {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/pk-rest.jpg);
+      url(../img/pk-rest.jpg);
       height: 720px;
   }
   .hero-title-rest {
@@ -718,7 +718,7 @@
   }
   .hero-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/pk-otel.jpg);
+      url(../img/pk-otel.jpg);
       height: 720px;
   }
   .hero-title-hotel {
@@ -740,7 +740,7 @@
         rgba(0, 0, 0, 0.2) 143px,
         rgba(0, 0, 0, 0) 26%
       ),
-      url(./img/pk-otel.jpg);
+      url(../img/pk-otel.jpg);
       height: 720px;
   }
   .hero-title-nomer {

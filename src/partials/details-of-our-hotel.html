@@ -11,7 +11,7 @@
         <div class="image-arrow">
             <div class="det-hotel-images">
                   <ul class="list-images">
-                    <li class="item-image">
+                    <!-- <li class="item-image">
                     <img src="../img/details-of-our-hotel/lunch-tablet.jpg"
                      alt="lunch" width="162" height="270">
                        </li>
@@ -19,14 +19,14 @@
                        <li class="item-image">
                           <img src="../img/details-of-our-hotel/" 
                           alt="кімната" width="274" height="270" >
-                     </li>
+                     </li> -->
 
-                   <li class="item-image"> 
+                   <!-- <li class="item-image"> 
                     <img src="../img/details-of-our-hotel/recep-tablet_162.jpg" 
                     alt="recep" width="162" height="270">
-                </li>
+                </li> -->
 
-                <li class="item-image">
+                <!-- <li class="item-image">
                      <img src="../img/details-of-our-hotel/lunch-tablet_162.jpg"
                       alt="lunch" width="162" height="270">    
                  </li>
@@ -49,7 +49,7 @@
                           <img src="../img/details-of-our-hotel/recep-desk_270.jpg"
                            alt="recep-desk" width="270" height="270"> 
                             </li>
-                  </ul>
+                  </ul> -->
                   
             <!-- <div class="btn-price-tablet">
                 <button type="button" class="det-hotel-btn">Забронювати номер</button>
@@ -74,7 +74,7 @@
         </div>
         <div class="btn-price">
             <button data-modal-open type="button" class="det-hotel-btn">Забронювати номер</button>
-            <div class="backdrop is-hidden" data-modal>
+            <div class="backdrop-hotel is-hidden" data-modal>
                 <div class="modal">
                     <button data-modal-close class="button-close">
                         <svg class="modal-icon" width="18" height="18">
@@ -85,15 +85,24 @@
                         <h1 class="form-header">ЦІНИ НА НОМЕР</h1>
                         <p class="form-text">Двомісний люкс</p>
                         <form class="form-modal">
-                            <div class="form-field">
-                                <label for="number" class="label-number">Категорія номеру</label>
-                                  <input type="number" name="number"  placeholder="1" class="input-style" >    
-                                <label for="number" class="label-number">Кількість ночей</label>
+                            <div class="fields">
+                            <div class="form-field ">
+                                <label for="number" class="label-number category">Категорія номеру</label>
+                                  <input type="number" name="number"  placeholder="1" class="input-style first"  >
+                           <div class="select-wrapper">
+                                  <select name="number" id="number" class="select">
+                                <option value="1" class="option">1</option>
+                                <option value="1" class="option">2</option>
+                                <option value="1" class="option">3</option>
+                            </select>
+                            
                             </div>
-
+                                <label for="number" class="label-number night">Кількість ночей</label>
+                            </div>
                             <div class="form-field">
-                             <input type="number" name="number" placeholder="1000" class="input-style">
-                             <label for="number" class="label-number">грн</label>
+                             <input type="number" name="number" placeholder="1000" class="input-style second" pattern ="[A-Za-z0-9]{6,}">
+                             <label for="number" class="label-number uah">грн</label>
+                            </div>
                             </div>
                             <button type="submit" class="form-btn">ЗАБРОНЮВАТИ НОМЕР</button>
                         </form>

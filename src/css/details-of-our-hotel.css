@@ -75,8 +75,12 @@
     text-align: center;
     display: block;
     margin-bottom: 12px;
+   
 }
-
+.det-hotel-mimino:hover,
+.det-hotel-mimino:focus{
+    color: #F3C653;
+}
 @media screen and (min-width:1024px) {
     .det-hotel-mimino {
         font-size: 64px;
@@ -178,7 +182,7 @@
     flex-shrink: 0;
 }
 
-/* .image-arrow {
+ .image-arrow {
     display: flex;
     flex-direction: column;
     margin-left: -15px;
@@ -191,13 +195,14 @@
                 margin-right: -47px;
     }
 }
+
 @media screen and (min-width:1024px) {
     .image-arrow-buttons {
         position: relative;
         
     }
-} */
 
+}
 /* іконки-стрілки */
 .svg-icons {
     display: flex;
@@ -225,8 +230,17 @@
     border: transparent;
     background: transparent;
     color: #FFFFFF;
+    
 }
-
+.det-hotel-button:hover,
+.det-hotel-button:focus{
+    background-color: transparent;
+    color: #F3C653;
+}
+.det-hotel-button:hover .det-hotel-icon,
+.det-hotel-button:focus .det-hotel-icon{
+    fill: #F3C653;
+}
 .det-hotel-icon {
     fill: currentColor;
 }
@@ -274,8 +288,8 @@
     padding-right: 24px;
     border: 2px solid #FFFFFF;
     border-radius: 25px;
+   
 }
-
 
 
 .det-hotel-btn-price {
@@ -296,7 +310,7 @@
     border-radius: 25px;
 }
 
-.backdrop{
+.backdrop-hotel{
 position: fixed;
 top: 0;
 left: 0;
@@ -304,7 +318,8 @@ width: 100%;
 height: 100%;
 z-index: 1;
 }
-.backdrop.is-hidden{
+
+.backdrop-hotel.is-hidden{
     opacity: 0;
     pointer-events: none;
 }
@@ -321,22 +336,29 @@ z-index: 1;
             padding-bottom: 60px;
              background-color: #FFFDEE;
 }
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1024px) {
 .modal{
     width: 712px;
     height: 489px;
+    padding: 60px;
+
 }
 }
+
 .button-close{
     position: absolute;
     top: 19px;
     right: 20px;
     background-color: transparent;
-           border: transparent;
-            
+           border: transparent;     
 }
+
 .modal-icon{
     stroke: currentColor;
+}
+.button-close:hover .modal-icon,
+.button-close:focus .modal-icon {
+    stroke: #F3C653;
 }
 .form-header{
     font-family: 'Times New Roman';
@@ -362,35 +384,25 @@ z-index: 1;
         color: #808080;
         margin-bottom: 28px;
 }
+
 .form-field{
     position: relative;
     display: flex;
     flex-direction: column;
     
 }
-.input-style::placeholder{
-    font-family: 'Times New Roman';
-    font-weight: 700;
-        font-size: 24px;
-        line-height: 1.16;
-                letter-spacing: 0.05em;
-            color: #808080;
+@media screen and (min-width:1024px) {
+.form-field{
+    margin-bottom: 40px;
 }
-.label-number{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-               letter-spacing: 0.02em;
-                    color: #C79002;
-                    margin-bottom: 20px;                  
 }
-
-.input-style-first{
-    margin-bottom: 8px;
-    height: 54px;
-   width: 384px;
-   background-color: #FFFDEE;
-border: 1px solid #C79002;
+@media screen and (min-width:1024px) {
+    .fields{
+        display: inline-flex;
+        gap: 16px;
+        align-items: end;  
+        
+    }
 }
 .input-style {
     margin-bottom: 8px;
@@ -398,16 +410,130 @@ border: 1px solid #C79002;
     width: 384px;
     background-color: #FFFDEE;
     border: 1px solid #C79002;
+   }
+
+@media screen and (min-width:1024px) {
+    .input-style {
+        width: 288px;
+        height: 64px;
+    }
+}
+.input-style::placeholder{
+        font-family: 'Times New Roman';
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16;
+                letter-spacing: 0.05em;
+                color: #808080;
+                }
+@media screen and (min-width:1024px) {
+    .input-style.first {
+            display: none;
+        }
+}
+.label-number{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+               letter-spacing: 0.02em;
+                    color: #C79002;
+                                    
 }
 
+.category{
+    margin-bottom: 20px;
+}
 
+.select-wrapper{
+    display: none;
+}
+ @media screen and (min-width:1024px) {
+     .select-wrapper {
+         position: relative;
+         display: block;
+     }
+ }
+  @media screen and (min-width:1024px) {
+      .select-wrapper::after {
+          content: " ";
+          position: absolute;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          top: 50%;
+          right: 20px;
+          transform: translateY(-50%);
+          pointer-events: none;
+          background-image: url(../img/details-of-our-hotel/ep_arrow-down-bold.svg);
+      }
+  }
+    .select {
+            margin-bottom: 8px;
+            width: 288px;
+            height: 64px;
+            background-color: #FFFDEE;
+            border: 1px solid #C79002;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 12px;
+            font-family: 'Times New Roman';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.16;
+            letter-spacing: 0.05em;
+            color: #808080;
+        }
 
+   .option{
+    font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.05em;
+        color: #808080;
+   }
+   
+     
+  
+.night{
+margin-bottom: 14px;
+}
+@media screen and (min-width:1024px) {
+.night{
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+}
 
-
-
-
-
-
+.first{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+.second{
+    padding-top: 18px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    margin-bottom: 14px;
+}
+@media screen and (min-width:1024px) {
+ .second{
+    margin-bottom: 8px;
+ }   
+}
+.uah{
+    margin-bottom: 40px;
+}
+@media screen and (min-width:1024px) {
+    .uah{
+        margin-bottom: 0;
+        margin-left: 12px;
+    }
+}
 .form-btn{
     width: 384px;
     height: 64px;
@@ -421,4 +547,15 @@ border: 1px solid #C79002;
           background-color:#000000;
         border: 1px solid #F3C653;
             border-radius: 2px;
+   }
+   .form-btn:hover,
+   .form-btn:focus{
+    background-color: #fff;
+    color: #F3C653;
+   }
+   @media screen and (min-width:1024px) {
+    .form-btn{
+        width: 592px;
+        height: 64px;
+    }
    }

@@ -20,11 +20,10 @@
 .hotel {
   background: #fffdee;
   position: relative;
-<<<<<<< Updated upstream
-=======
-  background: #fffdee;
+
+  background: #FFFDEE;
   padding-bottom: 72px;
->>>>>>> Stashed changes
+
   overflow: hidden;
 }
 .hotel-page {

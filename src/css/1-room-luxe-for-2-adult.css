@@ -15,7 +15,7 @@
 
 @media (max-width: 413px) {
     .section-luxe {
-        max-width: 414px;
+        width: auto;
     }
 
     .container-luxe {
@@ -121,7 +121,7 @@
     .luxe-svg {
         position: absolute;
         left: 0;
-        bottom: -59px;
+        top: 110%;
     }
 
     .svg-btt {
@@ -244,7 +244,7 @@
     .luxe-svg {
         position: absolute;
         left: 0;
-        bottom: -59px;
+        top: 110%;
     }
 
     .svg-btt {

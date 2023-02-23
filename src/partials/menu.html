@@ -281,7 +281,11 @@
       </div>
     </div>
     <div class="menu-btn-position">
-      <button type="button" class="desk-booking btn-hover btn-focus" menu-modal-open>
+      <button
+        type="button"
+        class="desk-booking btn-hover btn-focus"
+        menu-modal-open
+      >
         Забронювати столик
       </button>
     </div>
@@ -299,13 +303,23 @@
     <h2 class="desk-modal-tittle">ЗАБРОНЮВАТИ СТОЛИК</h2>
     <form class="desk-modal-form">
       <div class="desk-modal-field">
-        <input type="text" name="user-name" class="desk-modal-input" pattern="^[a-zA-Zа-яА-ЯіІїЇ]{1-50}$"
-          placeholder="Ваше ім'я" />
+        <input
+          type="text"
+          name="user-name"
+          class="desk-modal-input"
+          pattern="^[a-zA-Zа-яА-ЯіІїЇ]{1-50}$"
+          placeholder="Ваше ім'я"
+        />
         <span class="desk-modal-input-desc">На кого забронювати столик?</span>
       </div>
       <div class="desk-modal-field">
-        <input type="text" name="user-phone" class="desk-modal-input"
-          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" placeholder="+38(___)___-__-__" />
+        <input
+          type="text"
+          name="user-phone"
+          class="desk-modal-input"
+          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+          placeholder="+38(___)___-__-__"
+        />
         <span class="desk-modal-input-desc">Номер телефону</span>
       </div>
       <div class="desk-modal-field">
@@ -315,9 +329,9 @@
             <option value="second" selected>6</option>
             <option value="third">8</option>
           </select>
-          <svg class="desk-modal-errow-icon">
+          <!-- <svg class="desk-modal-errow-icon">
             <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
-          </svg>
+          </svg> -->
         </div>
         <span class="desk-modal-input-desc">Столик на яку кількість осіб?</span>
       </div>
@@ -329,9 +343,9 @@
             <option value="third">next week</option>
           </select>
 
-          <svg class="desk-modal-errow-icon">
+          <!-- <svg class="desk-modal-errow-icon">
             <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
-          </svg>
+          </svg> -->
         </div>
         <span class="desk-modal-input-desc">На яку дату бронювати?</span>
       </div>

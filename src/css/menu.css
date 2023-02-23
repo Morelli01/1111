@@ -306,6 +306,7 @@ color: #808080;
             letter-spacing: 0.02em;
             color: #000000;
             margin-bottom: 12px;
+            margin-right: 140px;
     }
 
     .table-hot-meals{
@@ -315,7 +316,7 @@ color: #808080;
     .menu-left-block-whole{
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 20px;
       }
       .menu-right-block-whole{
         display: flex;
@@ -378,6 +379,9 @@ color: #808080;
     .desk-modal-btn-submit{
         width: 592px;
         }
+    .table-meals-title{
+        margin-bottom: 20px;
+    }
     }
 
 /*---------desktop---------*/
@@ -409,7 +413,7 @@ color: #808080;
         margin-bottom: 12px;
         font-family: "Montserrat", sans-serif;
             width: 225px;
-            margin-right: 30px;
+            margin-right: 0px;
             font-weight: 500;
             font-size: 14px;
             line-height: 1.2;
@@ -423,6 +427,9 @@ color: #808080;
     .menu-btn-position{
         width: 1110px;
 
+    }
+    .menu-right-block-whole{
+        gap: 8px;
     }
 }
 

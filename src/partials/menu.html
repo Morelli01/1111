@@ -275,24 +275,23 @@
           </tbody>
         </table>
       </div>
-    </div>    
-    <div class="menu-btn-position" >
+    </div>
+    <div class="menu-btn-position">
       <button
         type="button"
         class="desk-booking btn-hover btn-focus"
-        menu-modal-open>
+        data-modal-open
+      >
         Забронювати столик
       </button>
     </div>
-        
   </div>
-    
-</section>
+
 
 <!-- modal-window -->
-<div class="backdrop is-hidden" menu-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal-booking-desk">
-    <button type="button" class="close-modal-btn" menu-modal-close>
+    <button type="button" class="close-modal-btn" data-modal-close>
       <svg class="close-modal-btn-icon">
         <use href="../img/sprite.svg#icon-x"></use>
       </svg>
@@ -351,5 +350,9 @@
       </button>
     </form>
   </div>
-  <script type="module" src="js/main-menu.js"></script>
+  <script type="text/javascript" src="js/main-menu.js"></script>
+  <script type="text/javascript">
+    bindModalClickAction('menu-restaurant');
+  </script>
 </div>
+</section>

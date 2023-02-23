@@ -54,6 +54,14 @@
 
   color: #494848;
 }
+
+.rest-title:hover,
+.rest-title:focus {
+  color: #6e6e6e;
+  transition: opacity 1s ease 0s;
+  opacity: 0.10;
+}
+
 .rest-text {
   margin-bottom: 28px;
   max-width: 216px;

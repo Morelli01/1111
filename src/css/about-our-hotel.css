@@ -60,6 +60,14 @@
 
   color: #494848;
 }
+
+.hotel-title:hover,
+.hotel-title:focus{
+  color: #FFFDEE;
+  transition: opacity 1s ease 0s;;
+  opacity: 0.24;
+}
+
 .hotel-text {
   margin-bottom: 28px;
   max-width: 216px;
@@ -164,6 +172,14 @@
     letter-spacing: 0.3em;
     color: #494848;
   }
+
+    .hotel-title:hover,
+    .hotel-title:focus {
+      color: #313131;
+      transition: opacity 1s ease 0s;
+      opacity: 0.10;
+    }
+
   .hotel-text {
     max-width: 375px;
     font-weight: 600;

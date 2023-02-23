@@ -19,6 +19,13 @@
     fill: #F3C653;
 }
 
+.headline-2-mimino:hover,
+.headline-2-mimino:focus{
+    color: #B4B4B4;
+    transition: opacity 1s ease 0s;
+    opacity: 0.71;
+}
+
 @media (max-width: 413px) {
     .container-2-adult {
         height: auto;

@@ -310,6 +310,13 @@ body {
     border: 2px solid #F3C653;
 }
 
+.det-hotel-mimino:hover,
+.det-hotel-mimino:focus {
+    color: #7A7A7A;
+    transition: opacity 1s ease 0s;
+    opacity: 0.24;
+}
+
 .raletive-wrap {
     position: relative;
 }

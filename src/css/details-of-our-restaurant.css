@@ -107,6 +107,13 @@ body {
     color: #FFFFFF;
 }
 
+        .logo-details-rest:hover,
+        .logo-details-rest:focus {
+            color: #919191;
+            transition: opacity 1s ease 0s;
+            opacity: 0.10;
+        }
+
 @media screen and (min-width: 1024px) {
     .logo-details-rest {
         margin-bottom: 16px;

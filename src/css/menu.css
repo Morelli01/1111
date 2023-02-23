@@ -167,6 +167,11 @@
     stroke: #000000;
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.close-modal-btn-icon:hover, 
+.close-modal-btn-icon:focus{
+    stroke:#F3C653;
+}
 .is-hidden {
     position: absolute;
     white-space: nowrap;

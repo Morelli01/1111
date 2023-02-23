@@ -117,8 +117,11 @@ ol {
   margin-top: 16px;
   width: 114px;
 }
+.header-link:hover,
 .header-link:focus {
-  outline: none;
+  color: #e0e0e0;
+  transition: opacity 1s ease 0s;
+  opacity: 0.10;
 }
 
 .phone-header-svg-icon {
@@ -142,6 +145,7 @@ ol {
   padding: 8px 8px 8px 8px;
   align-items: center;
 }
+
 .geo-item-header {
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
@@ -161,6 +165,12 @@ ol {
   color: #e5e5e5;
   width: 170px;
 }
+
+.geo-item-header:hover,
+.geo-item-header:focus {
+border: #e5e5e5;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(../img/mobile-hompage.jpg);
@@ -247,6 +257,14 @@ ol {
 .hero-social-icon {
   fill: rgba(243, 198, 83, 0.7);
 }
+
+.hero-social-icon:hover,
+.hero-social-icon:focus{
+  fill: #f3c653;
+  transition: opacity 1s ease 0s;
+  opacity: 0.50;
+}
+
 .hero-paragraph-rest {
   font-family: 'Montserrat';
   font-weight: 600;
@@ -358,6 +376,13 @@ ol {
 .grom-classe-ultra {
   position: relative;
 }
+
+.contact-box:hover,
+.contact-box:focus {
+  background-color: #f3c65339;
+}
+
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -720,6 +745,16 @@ ol {
   .hero-social-list {
     padding-bottom: 15px;
   }
+  .hero-social-list1{
+    display: flex;
+    gap: 23px;
+  position: absolute;
+  max-width: 100px;
+  padding-bottom: 15px;
+  bottom: 662px;
+  right: 10px;
+}
+
   .btn-hero-box {
     display: flex;
     justify-content: flex-end;

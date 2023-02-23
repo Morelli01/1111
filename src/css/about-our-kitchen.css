@@ -54,6 +54,14 @@
 
   color: #494848;
 }
+
+.kitchen-title:hover,
+.kitchen-title:focus {
+  color: #B4B4B4;
+  transition: opacity 1s ease 0s;
+  opacity: 0.71;
+}
+
 .kitchen-text {
   margin-bottom: 28px;
   max-width: 216px;

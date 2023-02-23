@@ -195,12 +195,12 @@
 
 
 .amenities-booking-svg {
-    fill: #000000;
+    fill: #C79002;
 }
 
 .amenities-booking-svg:hover,
 .amenities-booking-svg:focus {
-    fill: #C79002;
+    fill: #F3C653;
 }
 
 
@@ -211,6 +211,11 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: #C79002;
+}
+
+.amenities-hotel-link:hover,
+.amenities-hotel-link:focus{
+    color: #F3C653
 }
 
 @media screen and (min-width: 1024px) {
@@ -405,6 +410,15 @@
         align-items: end;
         width: 100%;
     }
+}
+
+.amenities-icon{
+    stroke: #000000;
+}
+
+.amenities-icon:hover,
+.amenities-icon:hover {
+    stroke: #F3C653;
 }
 
 .amenities-select-form {

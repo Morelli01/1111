@@ -1,9 +1,9 @@
 (() => {
   const refs = {
     // Find all the buttons
-    openModalButtons: document.querySelectorAll('[amenities-modal-open]'),
-    closeModalButton: document.querySelector('[amenities-modal-close]'),
-    modal: document.querySelector('[amenities-modal]'),
+    openModalButtons: document.querySelectorAll('[amenities-data-modal-open]'),
+    closeModalButton: document.querySelector('[amenities-data-modal-close]'),
+    modal: document.querySelector('[amenities-data-modal]'),
   };
   // Add event listener to all buttons
   refs.openModalButtons.forEach(element => {

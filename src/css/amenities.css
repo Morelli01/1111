@@ -249,7 +249,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 414px;
-    height: 780px;
+    height: auto;
     background: #FFFDEE;
     border-radius: 2px;
     padding: 15px;
@@ -264,7 +264,7 @@
 @media screen and (min-width:1024px) {
     .amenities-modal {
         width: 712px;
-        height: 638px;
+        height: auto;
         padding: 60px;
         border: 1px solid #F3C653;
     }

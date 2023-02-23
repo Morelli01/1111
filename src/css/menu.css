@@ -87,7 +87,8 @@
     top: 0;
     left: 50%;
     transform: translate(-50%,0);
-    display: block;
+    align-self: center;
+    /* display: block; */
     margin: auto;
     width: 236px;
     height: 48px;
@@ -274,7 +275,6 @@ color: #808080;
 /*---------mobile---------*/
 @media screen and (min-width: 414px){
     .container{
-        /* background-color: aquamarine; */
         width: 414px;
         margin-left: auto;
         margin-right: auto;
@@ -296,6 +296,16 @@ color: #808080;
     }
     .dish-name{
         margin-right: 47px;
+    }
+    .dish-name-desert{
+        font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #000000;
+            margin-bottom: 12px;
     }
 
     .table-hot-meals{
@@ -325,8 +335,8 @@ color: #808080;
         top: 0;
         left: 100%;
         transform: translate(-100%,0);}
-
-    .table-food-ingredients{
+          
+    .menu-restaurant .table-food-ingredients{
         width: 226px;
         margin-right: 44px;
         margin-bottom: 12px;
@@ -377,16 +387,16 @@ color: #808080;
         padding-left: 85px;
         padding-right: 85px;
     }
-    .menu-restaurant{
-        padding-bottom: 60px;
-
-    }
+ .menu-restaurant {
+     padding-bottom: 150px;
+ }
     .table-food-ingredients{
         width: 257px;
         margin-right: 65px;
         margin-bottom: 12px;
     }
     .menu-restaurant-wrapper{
+        margin-bottom: 32px;
         gap: 120px;
     }
 
@@ -395,6 +405,18 @@ color: #808080;
         font-size: 16px;
         line-height: 1.25;
     }
+    .dish-name-desert{
+        margin-bottom: 12px;
+        font-family: "Montserrat", sans-serif;
+            width: 225px;
+            margin-right: 30px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #000000;
+        
+    }
+
     .table-meals-title{
         font-size: 24px;
     }

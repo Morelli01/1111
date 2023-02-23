@@ -4,7 +4,7 @@ function bindModalClickAction(containerClassName) {
         const refs = {
             openModalBtn: eval("document.querySelector('." + containerClassName + " [data-modal-open]')"),
             closeModalBtn: eval("document.querySelector('." + containerClassName + " [data-modal-close]')"),
-            modal: eval("document.querySelector('." + containerClassName + " [data-modal]')"),
+            modal: eval("document.querySelector('." + containerClassName + " [data-modal]')")
         };
         if (!!refs.openModalBtn) {
             refs.openModalBtn.addEventListener("click", toggleModal);
@@ -23,5 +23,7 @@ function bindModalClickAction(containerClassName) {
         function toggleModal() {
             refs.modal.classList.toggle("is-hidden");
         }
+    } else {
+        console.warn('No container found!');
     }
 }

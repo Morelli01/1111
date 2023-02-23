@@ -221,7 +221,16 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 margin-top: 20px;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.desk-modal-btn-submit:hover,
+.desk-modal-btn-submit:focus {
+    background-color: #F3C653;
+    color: #000000;
+}
+
 .desk-modal-input::placeholder{
 font-family: 'Times New Roman', sans-serif;
 font-style: normal;
